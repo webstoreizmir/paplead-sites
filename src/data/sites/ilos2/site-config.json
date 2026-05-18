@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "ilos2 - WhatsApp Yapay Zeka Satış Ordusu",
+    "description": "İşletmenizin satış süreçlerini WhatsApp üzerinden yöneten, 7/24 kesintisiz çalışan yapay zeka tabanlı satış sistemleri ile gelirinizi katlayın.",
+    "site_url": "https://ilos2.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#25D366",
+      "secondary": "#128C7E",
+      "background": "#F9FAFB",
+      "text": "#111827"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech artificial intelligence smartphone sales",
+    "about_keyword": "business automation digital technology office",
+    "feature_keywords": [
+      "whatsapp automation",
+      "robotic assistant",
+      "data analysis"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Satışlarınızı Yapay Zeka İle WhatsApp'ta Otomatikleştirin",
+      "subheadline": "7/24 kesintisiz çalışan akıllı satış ordunuzla müşterilerinize anında cevap verin ve dönüşümleri artırın.",
+      "ctaButtonText": "Hemen Başla",
+      "badge_text": "Yeni Nesil Dijital Satış Teknolojisi"
+    },
+    "about": {
+      "title": "Neden ilos2 Tercih Edilmeli?",
+      "description": "ilos2 olarak işletmelerin müşteri iletişimini ve satış süreçlerini en ileri seviye yapay zeka teknolojileriyle dijitalleştiriyoruz. WhatsApp tabanlı akıllı asistanlarımızla operasyonel yükünüzü azaltırken satış verimliliğinizi maksimize ediyoruz.",
+      "stats": [
+        {
+          "value": "7/24",
+          "label": "Kesintisiz Aktif Satış"
+        },
+        {
+          "value": "500+",
+          "label": "Mutlu Kurumsal Müşteri"
+        },
+        {
+          "value": "100%",
+          "label": "Yapay Zeka Doğruluğu"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "7/24 Otomatik Satış Sistemi",
+        "description": "Müşterileriniz ne zaman yazarsa yazsın, yapay zekamız saniyeler içinde satış sürecini başlatır ve tamamlar.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Akıllı Müşteri Desteği",
+        "description": "Sıkça sorulan soruları ve karmaşık talepleri insan hassasiyetinde anlayarak anında profesyonel yanıtlar üretir.",
+        "icon": "💎"
+      },
+      {
+        "title": "Performans ve CRM Analizi",
+        "description": "Tüm konuşmaları ve satış verilerini analiz ederek işletmeniz için en uygun büyüme stratejilerini raporlar.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Strateji ve Analiz",
+        "description": "İşletmenizin satış hedeflerini ve müşteri profilini detaylıca analiz ederek sistemi kurguluyoruz."
+      },
+      {
+        "step": "02",
+        "title": "Yapay Zeka Eğitimi",
+        "description": "Satış ordunuzu ürünleriniz ve hizmetleriniz hakkında en ince ayrıntısına kadar profesyonelce eğitiyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Canlıya Geçiş ve Büyüme",
+        "description": "Sistemi WhatsApp hattınıza entegre ediyor ve satışlarınızın otomatik olarak artışını takip ediyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sistem nasıl kuruluyor?",
+        "answer": "Kurulum süreci tamamen uzman ekibimiz tarafından yönetilir ve mevcut WhatsApp hattınıza hızlıca entegre edilir."
+      },
+      {
+        "question": "Her sektöre uygun mu?",
+        "answer": "Evet, perakendeden hizmet sektörüne kadar satış ve destek ihtiyacı olan tüm işletmeler için optimize edilebilir."
+      },
+      {
+        "question": "Teknik bilgi gerekiyor mu?",
+        "answer": "Kesinlikle hayır; ilos2 kullanıcı dostu bir arayüze sahiptir ve tüm yönetim paneli tarafımızca size öğretilir."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Yılmaz",
+        "role": "E-Ticaret Direktörü",
+        "comment": "ilos2 sayesinde gece gelen taleplerin %90'ını satışa çevirmeye başladık. İnanılmaz bir verimlilik artışı sağladı."
+      },
+      {
+        "name": "Zeynep Kaya",
+        "role": "Operasyon Müdürü",
+        "comment": "Müşteri hizmetleri yükümüz ciddi oranda azaldı. Yapay zeka gerçekten bir insan gibi doğal ve ikna edici konuşuyor."
+      }
+    ],
+    "contact": {
+      "address": "Levent Plaza, İstanbul, Türkiye",
+      "phone": "05541103132",
+      "email": "test@test.com",
+      "map_query": "Levent, İstanbul",
+      "whatsapp": "05541103132",
+      "instagram": "https://instagram.com/ilos2ai",
+      "linkedin": "https://linkedin.com/company/ilos2ai"
+    }
+  }
+}
