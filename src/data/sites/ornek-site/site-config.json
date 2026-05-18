@@ -1,0 +1,141 @@
+{
+  "is_paid": false,
+  "metadata": {
+    "title": "Modern Ajans Pro",
+    "description": "İşletmeniz için profesyonel dijital çözümler. Web tasarım, SEO ve sosyal medya hizmetleri.",
+    "site_url": "https://modernajans.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#2563eb",
+      "secondary": "#1e40af",
+      "background": "#0f172a",
+      "text": "#f8fafc"
+    },
+    "fonts": {
+      "heading": "Montserrat",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "seo": {
+    "google_verification": "",
+    "bing_verification": "",
+    "yandex_verification": ""
+  },
+  "tracking": {
+    "ga4": "",
+    "facebook_pixel": "",
+    "google_ads": "",
+    "hotjar": ""
+  },
+  "images": {
+    "hero_keyword": "modern office architecture glass",
+    "about_keyword": "team meeting creative",
+    "feature_keywords": [
+      "code",
+      "design",
+      "rocket"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Geleceği Şekillendiriyoruz",
+      "subheadline": "İşletmeniz için en modern teknolojileri kullanarak dijital dünyada fark yaratın.",
+      "ctaButtonText": "Hemen Başlayın",
+      "badge_text": "Profesyonel Dijital Çözümler"
+    },
+    "about": {
+      "title": "Biz Kimiz?",
+      "description": "2010 yılından beri sektörde öncü çözümler üretiyoruz. Müşteri memnuniyeti odaklı yaklaşımımızla markanızı zirveye taşıyoruz.",
+      "stats": [
+        {
+          "label": "Tamamlanan Proje",
+          "value": "500+"
+        },
+        {
+          "label": "Mutlu Müşteri",
+          "value": "150+"
+        },
+        {
+          "label": "Yıllık Deneyim",
+          "value": "12"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Web Tasarım",
+        "description": "Mobil uyumlu, hızlı ve modern web siteleri tasarlıyoruz.",
+        "icon": "💻"
+      },
+      {
+        "title": "SEO Optimizasyonu",
+        "description": "Google'da ilk sıralarda yerinizi almak için kapsamlı SEO çalışması yapıyoruz.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Sosyal Medya",
+        "description": "Markanızın sesini dijital dünyada duyurmak için stratejik içerikler üretiyoruz.",
+        "icon": "📱"
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ahmet Yılmaz",
+        "role": "CEO, Tech Corp",
+        "comment": "Harika bir ekip, işlerini zamanında ve mükemmel yapıyorlar. Kesinlikle tavsiye ediyorum."
+      },
+      {
+        "name": "Ayşe Demir",
+        "role": "Pazarlama Müdürü",
+        "comment": "Satışlarımız %200 arttı. Profesyonellik ve hız konusunda rakipleri yok."
+      },
+      {
+        "name": "Mehmet Kaya",
+        "role": "Girişimci",
+        "comment": "Web sitemiz sayesinde yeni müşterilere ulaşıyoruz. Çok memnunuz."
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Keşif ve Analiz",
+        "description": "İhtiyaçlarınızı dinliyor, hedeflerinizi ve rakiplerinizi analiz ediyoruz."
+      },
+      {
+        "step": "02",
+        "title": "Tasarım ve Planlama",
+        "description": "Modern ve kullanıcı dostu tasarımlar oluşturuyor, içerik stratejisi belirliyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Geliştirme ve Test",
+        "description": "Kodlama, test ve optimizasyon süreçlerini titizlikle tamamlıyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Proje teslim süresi ne kadar?",
+        "answer": "Projenin kapsamına göre 2-6 hafta arasında değişmektedir. Detaylı bilgi için iletişime geçin."
+      },
+      {
+        "question": "Ödeme koşulları nelerdir?",
+        "answer": "%50 peşin, %50 teslimat sonrası ödeme planı sunuyoruz. Farklı ödeme seçenekleri için görüşelim."
+      },
+      {
+        "question": "Destek hizmeti veriyor musunuz?",
+        "answer": "Evet, teslim sonrası 6 ay ücretsiz teknik destek sağlıyoruz. Sonrasında uygun fiyatlı bakım paketlerimiz mevcuttur."
+      }
+    ],
+    "contact": {
+      "address": "Levent, Büyükdere Cd. No:1, İstanbul",
+      "phone": "+90 555 123 45 67",
+      "email": "info@modernajans.com",
+      "map_query": "Levent, Büyükdere Caddesi, İstanbul",
+      "whatsapp": "",
+      "instagram": "",
+      "linkedin": ""
+    }
+  }
+}

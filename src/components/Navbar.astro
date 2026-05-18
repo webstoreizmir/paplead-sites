@@ -1,0 +1,80 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-slate-900/80 backdrop-blur-lg border-b border-white/10">
+  <div class="container mx-auto px-6 py-4">
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform">
+          {title.charAt(0)}
+        </div>
+        <span class="text-xl font-heading font-bold text-white tracking-tight group-hover:text-[rgb(var(--color-primary))] transition-colors">
+          {title}
+        </span>
+      </a>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:flex items-center space-x-8">
+        <a href="#hero" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Ana Sayfa</a>
+        <a href="#about" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Hakkımızda</a>
+        <a href="#services" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Hizmetler</a>
+        <a href="#testimonials" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Referanslar</a>
+        <a
+          href="#contact"
+          class="px-5 py-2.5 rounded-full bg-[rgb(var(--color-primary))] text-white text-sm font-bold hover:bg-[rgb(var(--color-secondary))] hover:shadow-lg hover:shadow-[rgb(var(--color-primary))]/30 transition-all transform hover:-translate-y-0.5"
+        >
+          İletişim
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden text-white p-2" aria-label="Menüyü Aç">
+        <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+        <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu Panel -->
+  <div id="mobile-menu" class="md:hidden hidden bg-slate-900/95 backdrop-blur-lg border-t border-white/10">
+    <div class="container mx-auto px-6 py-4 flex flex-col gap-2">
+      <a href="#hero" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Ana Sayfa</a>
+      <a href="#about" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Hakkımızda</a>
+      <a href="#services" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Hizmetler</a>
+      <a href="#testimonials" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Referanslar</a>
+      <a href="#contact" class="mt-2 py-3 px-5 rounded-xl bg-[rgb(var(--color-primary))] text-white text-center font-bold transition-colors hover:bg-[rgb(var(--color-secondary))]">İletişim</a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('icon-open');
+  const iconClose = document.getElementById('icon-close');
+
+  btn?.addEventListener('click', () => {
+    const isOpen = !menu?.classList.contains('hidden');
+    menu?.classList.toggle('hidden', isOpen);
+    iconOpen?.classList.toggle('hidden', !isOpen);
+    iconClose?.classList.toggle('hidden', isOpen);
+  });
+
+  document.querySelectorAll('.mobile-link').forEach(link => {
+    link.addEventListener('click', () => {
+      menu?.classList.add('hidden');
+      iconOpen?.classList.remove('hidden');
+      iconClose?.classList.add('hidden');
+    });
+  });
+</script>

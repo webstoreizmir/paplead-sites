@@ -1,0 +1,108 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import HeroSection from '../components/HeroSection.astro';
+import ServicesSection from '../components/ServicesSection.astro';
+import AboutSection from '../components/AboutSection.astro';
+import ProcessSection from '../components/ProcessSection.astro';
+import TestimonialsSection from '../components/TestimonialsSection.astro';
+import FAQSection from '../components/FAQSection.astro';
+import ContactSection from '../components/ContactSection.astro';
+import Footer from '../components/Footer.astro';
+
+import { getSiteConfig } from '../utils/getSiteConfig';
+
+const hostname = Astro.request.headers.get('host') || '';
+const siteConfigLoaded = getSiteConfig(hostname);
+if (!siteConfigLoaded) return new Response('Site bulunamadı.', { status: 404 });
+
+const DUMMY_SERVICES = [
+  { title: "Web Tasarım", description: "Modern ve mobil uyumlu web siteleri tasarlıyoruz.", icon: "💻" },
+  { title: "Sosyal Medya", description: "Markanızı dijital dünyada büyütün.", icon: "📱" },
+  { title: "SEO Hizmeti", description: "Google'da üst sıralara çıkın.", icon: "🚀" }
+];
+
+const DUMMY_PROCESS = [
+  { step: "01", title: "Keşif", description: "İhtiyaçlarınızı analiz ediyoruz." },
+  { step: "02", title: "Tasarım", description: "Modern çizgilerle tasarlıyoruz." },
+  { step: "03", title: "Teslimat", description: "Onayınızla yayına alıyoruz." }
+];
+
+const DUMMY_TESTIMONIALS = [
+  { name: "Ahmet Y.", role: "Firma Sahibi", comment: "Hızlı ve profesyonel çözüm." },
+  { name: "Ayşe K.", role: "Müdür", comment: "Beklentimizin üzerinde bir iş." },
+  { name: "Mehmet D.", role: "Girişimci", comment: "Kesinlikle tavsiye ederim." }
+];
+
+const DUMMY_FAQ = [
+  { question: "Süreç ne kadar sürer?", answer: "Proje kapsamına göre en hızlı sürede teslim ediyoruz." },
+  { question: "Fiyatlar nasıl?", answer: "Bütçe dostu ve şeffaf fiyatlandırma sunuyoruz." },
+  { question: "Destek var mı?", answer: "Evet, 7/24 teknik destek sağlıyoruz." }
+];
+
+const rawConfig = siteConfigLoaded || {};
+const metadata = rawConfig.metadata || { title: "Web Siteniz", description: "Kurumsal Çözümler" };
+const content = rawConfig.content || {};
+
+const hero = content.hero || { headline: "Hoş Geldiniz", subheadline: "Profesyonel Çözümler", ctaButtonText: "İletişim" };
+const about = content.about || { title: "Hakkımızda", description: "Biz kimiz...", stats: [] };
+
+const rawContact = content.contact || {};
+const contact = {
+  address: rawContact.address || "Türkiye",
+  phone: rawContact.phone || "+90 555 000 0000",
+  email: rawContact.email || "info@example.com",
+  map_query: rawContact.map_query || rawContact.address || "Istanbul, Turkey",
+  whatsapp: rawContact.whatsapp || "",
+  instagram: rawContact.instagram || "",
+  linkedin: rawContact.linkedin || "",
+};
+
+const images = rawConfig.images || {};
+const heroKeyword = images.hero_keyword || "technology";
+const aboutKeyword = images.about_keyword || "office";
+const featureKeywords = images.feature_keywords || ["code", "design", "marketing"];
+
+const services = (content.services && content.services.length > 0) ? content.services : DUMMY_SERVICES;
+const testimonials = (content.testimonials && content.testimonials.length > 0) ? content.testimonials : DUMMY_TESTIMONIALS;
+const faq = (content.faq && content.faq.length > 0) ? content.faq : DUMMY_FAQ;
+const process = (content.process && content.process.length > 0) ? content.process : DUMMY_PROCESS;
+---
+
+<Layout title={metadata.title} description={metadata.description} siteConfig={rawConfig}>
+  <Navbar title={metadata.title} />
+
+  <HeroSection
+    headline={hero.headline}
+    subheadline={hero.subheadline}
+    ctaButtonText={hero.ctaButtonText}
+    imageKeyword={heroKeyword}
+    badgeText={hero.badge_text}
+  />
+
+  <AboutSection
+    title={about.title}
+    description={about.description}
+    stats={about.stats}
+    imageKeyword={aboutKeyword}
+  />
+
+  <ServicesSection
+    services={services}
+    featureKeywords={featureKeywords}
+  />
+
+  <ProcessSection steps={process} />
+
+  <TestimonialsSection testimonials={testimonials} />
+
+  <FAQSection faqs={faq} />
+
+  <ContactSection contact={contact} />
+
+  <Footer
+    title={metadata.title}
+    description={about.description}
+    contact={contact}
+  />
+</Layout>

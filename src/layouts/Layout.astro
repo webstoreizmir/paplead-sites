@@ -1,0 +1,183 @@
+---
+import type { SiteConfig } from '../types/config';
+import { getSmartImage } from '../utils/images';
+import '../styles/global.css';
+import PaymentProtection from '../components/PaymentProtection.astro';
+
+interface Props {
+  title?: string;
+  description?: string;
+  siteConfig: SiteConfig;
+}
+
+const { siteConfig: config } = Astro.props;
+const title = Astro.props.title ?? config.metadata.title;
+const description = Astro.props.description ?? config.metadata.description;
+
+const siteUrl  = config.metadata.site_url || '';
+const ogImage  = getSmartImage(config.images.hero_keyword);
+const seo      = config.seo      || {};
+const tracking = config.tracking || {};
+
+function hexToRgb(hex: string): string {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  if (!result) return '0 0 0';
+  return `${parseInt(result[1], 16)} ${parseInt(result[2], 16)} ${parseInt(result[3], 16)}`;
+}
+
+const colors = {
+  primary: hexToRgb(config.theme.colors.primary),
+  secondary: hexToRgb(config.theme.colors.secondary),
+  background: hexToRgb(config.theme.colors.background),
+  text: hexToRgb(config.theme.colors.text),
+};
+
+const headingFont = config.theme.fonts.heading.replace(/\s+/g, '+');
+const bodyFont = config.theme.fonts.body.replace(/\s+/g, '+');
+const fontsParam = headingFont === bodyFont
+  ? `family=${headingFont}:wght@300;400;500;600;700;800`
+  : `family=${headingFont}:wght@400;500;600;700;800&family=${bodyFont}:wght@300;400;500;600`;
+---
+
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    {siteUrl && <link rel="canonical" href={siteUrl} />}
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    {siteUrl && <meta property="og:url" content={siteUrl} />}
+    <meta property="og:locale" content="tr_TR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Theme color -->
+    <meta name="theme-color" content={config.theme.colors.primary} />
+
+    <!-- SEO Doğrulama -->
+    {seo.google_verification && <meta name="google-site-verification" content={seo.google_verification} />}
+    {seo.bing_verification   && <meta name="msvalidate.01"            content={seo.bing_verification} />}
+    {seo.yandex_verification && <meta name="yandex-verification"      content={seo.yandex_verification} />}
+
+    <!-- Structured Data: LocalBusiness -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": config.metadata.title,
+      "description": config.metadata.description,
+      "url": siteUrl || undefined,
+      "telephone": config.content.contact.phone || undefined,
+      "email": config.content.contact.email || undefined,
+      "address": config.content.contact.address ? {
+        "@type": "PostalAddress",
+        "streetAddress": config.content.contact.address
+      } : undefined
+    })} />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href={`https://fonts.googleapis.com/css2?${fontsParam}&display=swap`} rel="stylesheet" />
+
+    <title>{title}</title>
+
+    <style is:global define:vars={{
+      colorPrimary: colors.primary,
+      colorSecondary: colors.secondary,
+      colorBackground: colors.background,
+      colorText: colors.text,
+      fontHeading: `'${config.theme.fonts.heading}', sans-serif`,
+      fontBody: `'${config.theme.fonts.body}', sans-serif`,
+    }}>
+      :root {
+        --color-primary: var(--colorPrimary);
+        --color-secondary: var(--colorSecondary);
+        --color-background: var(--colorBackground);
+        --color-text: var(--colorText);
+        --font-heading: var(--fontHeading);
+        --font-body: var(--fontBody);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        font-family: var(--font-body);
+      }
+
+      body {
+        min-height: 100vh;
+        background: rgb(var(--color-background));
+        color: rgb(var(--color-text));
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+      }
+    </style>
+  </head>
+  <body>
+    <slot />
+    <PaymentProtection />
+
+    <!-- Google Analytics 4 -->
+    {tracking.ga4 && (
+      <Fragment>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${tracking.ga4}`}></script>
+        <script define:vars={{ ga4Id: tracking.ga4 }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', ga4Id);
+        </script>
+      </Fragment>
+    )}
+
+    <!-- Facebook Pixel -->
+    {tracking.facebook_pixel && (
+      <script define:vars={{ pixelId: tracking.facebook_pixel }}>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', pixelId);
+        fbq('track', 'PageView');
+      </script>
+    )}
+
+    <!-- Google Ads -->
+    {tracking.google_ads && (
+      <Fragment>
+        <script async src={`https://www.googletagmanager.com/gtag/js?id=${tracking.google_ads}`}></script>
+        <script define:vars={{ adsId: tracking.google_ads }}>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', adsId);
+        </script>
+      </Fragment>
+    )}
+
+    <!-- Hotjar -->
+    {tracking.hotjar && (
+      <script define:vars={{ hjId: Number(tracking.hotjar) }}>
+        (function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:hjId,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+      </script>
+    )}
+  </body>
+</html>
