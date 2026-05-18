@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "iloş - Yapay Zeka Satış Ordusu ve Dijital Dönüşüm",
+    "description": "iloş, işletmelerin satış süreçlerini yapay zeka tabanlı otonom sistemlerle modernize eden, 7/24 kesintisiz çalışan dijital bir satış ordusu kurmanızı sağlar.",
+    "site_url": "https://ilos.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#bc13fe",
+      "secondary": "#2d004d",
+      "background": "#0a0a0a",
+      "text": "#ffffff"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech futuristic artificial intelligence robot army",
+    "about_keyword": "tech cybernetic digital automation interface",
+    "feature_keywords": [
+      "tech ai neural network",
+      "tech digital data analysis",
+      "tech smart automation system"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Geleceğin Satış Gücü: Yapay Zeka Ordunuz Hazır",
+      "subheadline": "Satış süreçlerinizi otonom hale getirin ve iloş'un yapay zeka teknolojisiyle sınırları aşın.",
+      "ctaButtonText": "Hemen Başla",
+      "badge_text": "Yeni Nesil Satış Otomasyonu"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "iloş, yapay zeka satış ordusu kurarak işletmelerin lead toplama, müşteri ikna ve satış kapatma süreçlerini tamamen dijitalleştirir. İnsan hatalarından arınmış, yorulmayan ve sürekli öğrenen algoritmalarımızla ticari büyümenizi hızlandırıyoruz.",
+      "stats": [
+        {
+          "value": "500M+",
+          "label": "İşlenen Veri"
+        },
+        {
+          "value": "250+",
+          "label": "Aktif AI Ordusu"
+        },
+        {
+          "value": "98%",
+          "label": "Başarı Oranı"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Otonom Lead Yönetimi",
+        "description": "Potansiyel müşterilerinizi saniyeler içinde analiz eden ve sınıflandıran akıllı sistemler.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Yapay Zeka Kapatıcılar",
+        "description": "Müşteri itirazlarını profesyonelce yöneten ve satışı sonuçlandıran dijital asistanlar.",
+        "icon": "💎"
+      },
+      {
+        "title": "7/24 Global Operasyon",
+        "description": "Dünyanın her yerinde farklı dillerde kesintisiz satış yapabilen devasa bir teknolojik kadro.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Strateji Analizi",
+        "description": "İşletmenizin satış hedeflerine uygun AI modelini belirliyoruz."
+      },
+      {
+        "step": "02",
+        "title": "AI Entegrasyonu",
+        "description": "Sistemlerinize yapay zeka ordunuzu sorunsuz şekilde dahil ediyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Otonom Büyüme",
+        "description": "Siz odaklanırken ordunuz sizin yerinize satışları gerçekleştirir."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sistem nasıl çalışır?",
+        "answer": "Mevcut verilerinizle eğitilen AI modelleri, gerçek zamanlı müşteri etkileşimi kurarak çalışır."
+      },
+      {
+        "question": "Güvenlik nasıl sağlanıyor?",
+        "answer": "Tüm verileriniz uçtan uca şifrelenmiş sunucularımızda en yüksek güvenlik protokolleri ile korunmaktadır."
+      },
+      {
+        "question": "Kurulum ne kadar sürer?",
+        "answer": "İşletmenizin büyüklüğüne bağlı olarak genellikle 14 iş günü içerisinde sistem aktif hale gelir."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Caner Kavlak",
+        "role": "Yazılım Direktörü",
+        "comment": "iloş sayesinde satış ekibimizin verimliliği daha önce hiç görmediğimiz bir seviyeye ulaştı."
+      },
+      {
+        "name": "Selin Aras",
+        "role": "Operasyon Müdürü",
+        "comment": "Yapay zeka ordusu fikri başta korkutucuydu ama sonuçlar gerçekten inanılmaz derecede başarılı."
+      }
+    ],
+    "contact": {
+      "address": "İstanbul Teknopark, Türkiye",
+      "phone": "+905541103132",
+      "email": "cankavlak@gmail.com",
+      "map_query": "İstanbul, Türkiye",
+      "whatsapp": "05541103132",
+      "instagram": "@paplead.com",
+      "linkedin": "iloş-ai-technologies"
+    }
+  }
+}
