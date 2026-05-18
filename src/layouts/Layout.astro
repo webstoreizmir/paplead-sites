@@ -136,7 +136,7 @@ const fontsParam = headingFont === bodyFont
   </head>
   <body>
     <slot />
-    <PaymentProtection />
+    <PaymentProtection isPaid={config.is_paid ?? false} />
 
     <!-- Google Analytics 4 -->
     {tracking.ga4 && (
