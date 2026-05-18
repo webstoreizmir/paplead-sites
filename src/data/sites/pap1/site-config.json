@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "paplead-test - Yeni Nesil Yapay Zeka Satış Asistanı",
+    "description": "Paplead, işletmeler için özel olarak geliştirilmiş, satış süreçlerini otomatize eden ve verimliliği artıran profesyonel bir yapay zeka satış asistanıdır.",
+    "site_url": "https://pap1.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#bc13fe",
+      "secondary": "#00f2ff",
+      "background": "#0a0a0b",
+      "text": "#f8f9fa"
+    },
+    "fonts": {
+      "heading": "Inter Bold Sans",
+      "body": "Inter Regular UI"
+    },
+    "style": "modern-dark-tech"
+  },
+  "images": {
+    "hero_keyword": "futuristic artificial intelligence digital robot sales assistant technology",
+    "about_keyword": "neural network connection data visualization technology office",
+    "feature_keywords": [
+      "automated business communication",
+      "data analytics dashboard tech",
+      "artificial intelligence customer service"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Yapay Zeka Gücüyle Satışlarınızı Otomatize Edin",
+      "subheadline": "Paplead akıllı asistanları ile müşterilerinize 7/24 kesintisiz yanıt verin ve dönüşüm oranlarınızı hemen artırın.",
+      "ctaButtonText": "Hemen Ücretsiz Deneyin",
+      "badge_text": "Geleceğin Satış Teknolojisi Burada"
+    },
+    "about": {
+      "title": "Neden Paplead Satış Asistanı?",
+      "description": "Paplead olarak, işletmelerin satış departmanlarını en yeni yapay zeka algoritmalarıyla donatıyoruz. Manuel iş yükünü sıfıra indirerek ekiplerinizin sadece stratejiye odaklanmasını sağlıyoruz.",
+      "stats": [
+        {
+          "value": "7/24 Kesintisiz",
+          "label": "Aktif Hizmet Süresi"
+        },
+        {
+          "value": "%45 Artış",
+          "label": "Satış Dönüşüm Oranı"
+        },
+        {
+          "value": "100% Güvenli",
+          "label": "Veri Koruma Altyapısı"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Akıllı Satış Yönetimi",
+        "description": "Müşteri adaylarını otomatik analiz eder ve en doğru teklifi saniyeler içinde sunar.",
+        "icon": "🚀-high-speed-ai"
+      },
+      {
+        "title": "Doğal Dil İşleme",
+        "description": "İnsan benzeri diyaloglar kurarak müşteri memnuniyetini en üst düzeye taşıyan teknoloji.",
+        "icon": "💎-premium-quality"
+      },
+      {
+        "title": "Anlık Veri Analitiği",
+        "description": "Tüm satış görüşmelerini raporlar ve gelişim alanlarını yapay zeka ile tespit eder.",
+        "icon": "⚡-instant-results"
+      }
+    ],
+    "process": [
+      {
+        "step": "Aşama - 01",
+        "title": "Hızlı Entegrasyon",
+        "description": "Mevcut sistemlerinize yapay zeka asistanımızı birkaç saat içinde bağlıyoruz."
+      },
+      {
+        "step": "Aşama - 02",
+        "title": "Özel Eğitim Modeli",
+        "description": "Asistanımızı sektörünüze ve ürünlerinize özel verilerle detaylıca eğitiyoruz."
+      },
+      {
+        "step": "Aşama - 03",
+        "title": "Tam Otomasyon",
+        "description": "Satış temsilciniz artık uyurken bile markanız adına profesyonel satış yapar."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sistem nasıl kuruluyor?",
+        "answer": "Teknik ekibimiz web sitenize veya iletişim kanallarınıza API üzerinden hızlıca entegrasyon sağlar."
+      },
+      {
+        "question": "Hangi dilleri destekliyor?",
+        "answer": "Yapay zeka asistanımız başta Türkçe ve İngilizce olmak üzere 50'den fazla dilde akıcı konuşur."
+      },
+      {
+        "question": "Maliyet avantajı nedir?",
+        "answer": "Geleneksel satış ekiplerine oranla operasyonel maliyetlerinizi yıllık bazda %60 oranında düşürür."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Canberk Aras",
+        "role": "CEO, Teknoloji Girişimi",
+        "comment": "Paplead kullanmaya başladığımızdan beri hiçbir müşteri adayını cevapsız bırakmadık, harika bir sistem."
+      },
+      {
+        "name": "Zeynep Güneş",
+        "role": "Pazarlama Direktörü",
+        "comment": "Satış süreçlerimiz hiç bu kadar hızlı ve verimli olmamıştı. Yapay zeka kalitesi gerçekten şaşırtıcı."
+      }
+    ],
+    "contact": {
+      "address": "Levent, Büyükdere Caddesi No:199, İstanbul/Türkiye",
+      "phone": "05541103132",
+      "email": "test@test.com",
+      "map_query": "Levent, İstanbul, Türkiye",
+      "whatsapp": "05541103132",
+      "instagram": "@paplead-official",
+      "linkedin": "linkedin.com/company/paplead-ai"
+    }
+  }
+}
