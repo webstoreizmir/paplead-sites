@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "paplead - Geleceğin Yapay Zeka Satış Asistanı",
+    "description": "Paplead, işletmeniz için 7/24 kesintisiz çalışan, izin istemeyen ve satış süreçlerinizi tamamen otomatize eden premium bir yapay zeka asistanıdır.",
+    "site_url": "https://pap.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#bc13fe",
+      "secondary": "#8a2be2",
+      "background": "#0a0a0a",
+      "text": "#ffffff"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech artificial intelligence futuristic business office",
+    "about_keyword": "technology digital transformation luxury workspace",
+    "feature_keywords": [
+      "artificial intelligence robot",
+      "cyberpunk purple neon city",
+      "digital marketing data"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Satışlarınızı Yapay Zeka Gücüyle 7/24 Kesintisiz Ölçeklendirin",
+      "subheadline": "İzin istemeyen, yorulmayan ve her saniye kâr odaklı çalışan dijital satış asistanınızla tanışın.",
+      "ctaButtonText": "Hemen Ücretsiz Teklif Alın",
+      "badge_text": "Premium Yapay Zeka Satış Teknolojisi"
+    },
+    "about": {
+      "title": "Paplead Hakkında",
+      "description": "Paplead, modern işletmelerin satış ve müşteri ilişkileri süreçlerini kökten değiştiren, lüks ve premium segmentte hizmet veren bir yapay zeka çözümüdür. İnsan hatalarını ortadan kaldıran ve maliyetleri minimize eden sistemimizle tanışın.",
+      "stats": [
+        {
+          "value": "24/7",
+          "label": "Kesintisiz Çalışma Süresi"
+        },
+        {
+          "value": "%0",
+          "label": "Hata ve İzin Oranı"
+        },
+        {
+          "value": "10X",
+          "label": "Daha Hızlı Geri Dönüş"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Otonom Müşteri Yönetimi",
+        "description": "Potansiyel müşterilerinizi anında karşılayan ve onları satışa yönlendiren akıllı sistemler.",
+        "icon": "🚀"
+      },
+      {
+        "title": "7/24 Aktif Satış Kanalları",
+        "description": "Siz uyurken bile satış yapan, soruları yanıtlayan ve randevu oluşturan yapay zeka desteği.",
+        "icon": "💎"
+      },
+      {
+        "title": "Kârlılık ve Verim Analizi",
+        "description": "Satış süreçlerinizdeki verimliliği artırarak operasyonel maliyetlerinizi minimuma indiren çözüm.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Stratejik İhtiyaç Analizi",
+        "description": "İşletmenizin satış hedeflerini ve müşteri profilini detaylıca analiz ediyoruz."
+      },
+      {
+        "step": "02",
+        "title": "AI Model Entegrasyonu",
+        "description": "Size özel eğitilmiş yapay zeka asistanınızı sistemlerinize profesyonelce kuruyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Sürekli Kâr ve Büyüme",
+        "description": "Asistanınız çalışmaya başlar ve siz sadece artan satış rakamlarınızı takip edersiniz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Yapay zeka asistanı nasıl çalışır?",
+        "answer": "Mevcut web siteniz ve sosyal medya hesaplarınızla entegre olarak müşterilerle doğal bir dille iletişim kurar."
+      },
+      {
+        "question": "Maliyetlerimi nasıl düşürür?",
+        "answer": "Ek personel ihtiyacını azaltır, 24 saat kesintisiz çalışarak kaçırılan tüm satış fırsatlarını kazanca dönüştürür."
+      },
+      {
+        "question": "Kurulum süreci ne kadar sürer?",
+        "answer": "İşletmenizin karmaşıklığına bağlı olarak genellikle 3 ila 7 iş günü içerisinde tam entegrasyon sağlıyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Can Yılmaz",
+        "role": "E-ticaret Direktörü",
+        "comment": "Paplead ile tanıştıktan sonra gece gelen talepleri kaçırma derdimiz bitti, satışlarımız %40 arttı."
+      },
+      {
+        "name": "Selin Taner Aras",
+        "role": "Gayrimenkul Yatırım Danışmanı",
+        "comment": "Müşterilerime benden daha hızlı cevap veriyor ve çok daha profesyonel bir süreç yönetiyor. Muazzam bir teknoloji."
+      }
+    ],
+    "contact": {
+      "address": "İstanbul Teknopark, Türkiye Ofisleri",
+      "phone": "+90 554 110 31 32",
+      "email": "cankavlak@gmail.com",
+      "map_query": "İstanbul, Türkiye",
+      "whatsapp": "05541103132",
+      "instagram": "@paplead",
+      "linkedin": "https://www.linkedin.com/company/paplead-ai"
+    }
+  }
+}
