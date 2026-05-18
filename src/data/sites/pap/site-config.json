@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "title": "pap - Geleceğin Yapay Zeka Satış Asistanı Platformu",
-    "description": "Pap, işletmenizin satış süreçlerini optimize eden, 7/24 kesintisiz çalışan ve müşteri etkileşimlerini kazanca dönüştüren yeni nesil yapay zeka asistanıdır.",
+    "title": "Paplead - Yapay Zeka Destekli Satış ve Dönüşüm Asistanı",
+    "description": "Paplead, işletmenizin satış süreçlerini 7/24 kesintisiz yöneten, müşteri etkileşimlerini optimize eden ve satış dönüşüm oranlarını yapay zeka teknolojisiyle zirveye taşıyan premium bir dijital asistandır.",
     "site_url": "https://pap.com"
   },
   "theme": {
     "colors": {
-      "primary": "#A855F7",
-      "secondary": "#6B21A8",
-      "background": "#0F172A",
-      "text": "#F8FAFC"
+      "primary": "#BC13FE",
+      "secondary": "#1A1A1A",
+      "background": "#050505",
+      "text": "#F8F8F8"
     },
     "fonts": {
       "heading": "Inter",
@@ -18,53 +18,53 @@
     "style": "modern"
   },
   "images": {
-    "hero_keyword": "tech futuristic artificial intelligence dashboard",
-    "about_keyword": "tech digital transformation business growth",
+    "hero_keyword": "tech futuristic artificial intelligence digital interface luxury",
+    "about_keyword": "tech glowing neon purple data visualization server room",
     "feature_keywords": [
-      "tech automated customer support",
-      "tech data analytics visualization",
-      "tech mobile interface design"
+      "tech high-speed processor",
+      "business growth graph",
+      "tech automated customer support"
     ]
   },
   "content": {
     "hero": {
-      "headline": "Satışlarınızı Yapay Zeka Gücüyle İkiye Katlayın",
-      "subheadline": "Pap ile potansiyel müşterilerinize anında yanıt verin, randevuları otomatikleştirin ve satışlarınızı hızlandırın.",
-      "ctaButtonText": "Hemen Ücretsiz Deneyin",
-      "badge_text": "Yapay Zeka Destekli Satış Devrimi"
+      "headline": "Satışlarınızı Yapay Zeka Gücüyle Otomatize Edin",
+      "subheadline": "Paplead ile her müşteriye anında yanıt verin, satış fırsatlarını kaçırmayın ve verimliliğinizi ikiye katlayın.",
+      "ctaButtonText": "Hemen Keşfet",
+      "badge_text": "Premium Yapay Zeka Deneyimi"
     },
     "about": {
-      "title": "Neden Pap Satış Asistanı?",
-      "description": "Pap, modern işletmelerin dijitalleşme sürecindeki en büyük yardımcısıdır. Karmaşık satış süreçlerini basitleştirerek, her potansiyel müşteriyi değerli bir iş fırsatına dönüştürmek için tasarlandı.",
+      "title": "Neden Paplead?",
+      "description": "Paplead olarak satış dünyasını yapay zeka ile yeniden şekillendiriyoruz. Modern işletmeler için tasarlanan lüks ve akıllı sistemimiz, müşteri taleplerini anında analiz ederek en doğru satış hamlelerini otomatik olarak gerçekleştirir.",
       "stats": [
         {
-          "value": "10M+",
-          "label": "İşlenen Etkileşim"
+          "value": "24/7",
+          "label": "Kesintisiz Aktif Çalışma"
         },
         {
-          "value": "2500+",
-          "label": "Mutlu İşletme"
+          "value": "%85+",
+          "label": "Müşteri Geri Dönüş Oranı"
         },
         {
-          "value": "%85",
-          "label": "Verimlilik Artışı"
+          "value": "10ms",
+          "label": "Yapay Zeka Yanıt Hızı"
         }
       ]
     },
     "services": [
       {
-        "title": "Akıllı Satış Botu",
-        "description": "Müşterilerinizle doğal dilde iletişim kuran ve 7/24 satış yapan ileri seviye yapay zeka.",
+        "title": "Akıllı Satış Yönetimi",
+        "description": "Müşteri taleplerini saniyeler içinde analiz ederek satışa dönüştüren gelişmiş algoritmalar.",
         "icon": "🚀"
       },
       {
-        "title": "Otomatik Randevu",
-        "description": "Takviminizle entegre çalışan ve potansiyel müşteriler için toplantı ayarlayan akıllı sistem.",
+        "title": "7/24 Canlı Destek",
+        "description": "Hiçbir müşterinizi cevapsız bırakmayan, gece gündüz aktif çalışan dijital asistan hizmeti.",
         "icon": "💎"
       },
       {
-        "title": "Performans Analitiği",
-        "description": "Tüm satış görüşmelerinizi analiz eden ve size gelişim raporları sunan detaylı veri paneli.",
+        "title": "Veri Analitiği",
+        "description": "Satış performansınızı detaylı raporlarla takip eden ve strateji geliştiren akıllı panel.",
         "icon": "⚡"
       }
     ],
@@ -72,53 +72,53 @@
       {
         "step": "01",
         "title": "Hızlı Entegrasyon",
-        "description": "Mevcut sistemlerinize dakikalar içerisinde kolayca bağlayın."
+        "description": "Mevcut sistemlerinize yapay zekayı dakikalar içerisinde profesyonelce dahil ediyoruz."
       },
       {
         "step": "02",
-        "title": "Akıllı Eğitim",
-        "description": "Yapay zekayı işletme verilerinizle sadece birkaç saatte eğitin."
+        "title": "Özel Eğitim",
+        "description": "Yapay zekayı sizin marka dilinize ve satış hedeflerinize uygun olarak özelleştiriyoruz."
       },
       {
         "step": "03",
-        "title": "Otomatik Satış",
-        "description": "Asistanınız devreye girsin ve satışlarınızı 7/24 gerçekleştirsin."
+        "title": "Maksimum Verim",
+        "description": "Sistem devreye girdiği andan itibaren satışlarınızdaki artışı anlık olarak izlemeye başlayın."
       }
     ],
     "faq": [
       {
-        "question": "Pap hangi platformlarda çalışır?",
-        "answer": "Pap web siteniz, WhatsApp ve tüm popüler sosyal medya kanallarınızla tam uyumlu çalışır."
+        "question": "Paplead kurulumu zor mu?",
+        "answer": "Hayır, teknik ekibimiz tüm entegrasyon sürecini sizin yerinize sadece birkaç saat içinde tamamlamaktadır."
       },
       {
-        "question": "Kurulum desteği veriyor musunuz?",
-        "answer": "Evet, uzman ekibimiz kurulumdan optimizasyona kadar her adımda size destek sağlamaktadır."
+        "question": "Hangi sektörler için uygun?",
+        "answer": "E-ticaret, hizmet sektörü ve kurumsal satış yapan tüm işletmeler için özelleştirilmiş çözümler sunuyoruz."
       },
       {
-        "question": "Verilerim ne kadar güvende?",
-        "answer": "Tüm verileriniz uçtan uca şifreleme ve en yüksek güvenlik protokolleri ile korunmaktadır."
+        "question": "Maliyet avantajı sağlıyor mu?",
+        "answer": "Personel maliyetlerinizi düşürürken satış kaçırma oranınızı sıfıra indirerek yüksek yatırım getirisi sağlar."
       }
     ],
     "testimonials": [
       {
-        "name": "Caner Yıldız",
+        "name": "Mehmet Karahan",
         "role": "E-Ticaret Direktörü",
-        "comment": "Pap kullanmaya başladığımızdan beri müşteri yanıt hızımız %90 arttı, harika bir sistem."
+        "comment": "Paplead kullanmaya başladığımızdan beri gece gelen sipariş sorularının tamamı satışa dönüştü."
       },
       {
         "name": "Zeynep Aydın",
         "role": "Satış Müdürü",
-        "comment": "Yapay zeka asistanı sayesinde ekibimiz artık sadece yüksek kaliteli fırsatlara odaklanabiliyor."
+        "comment": "Yapay zekanın bu kadar profesyonel ve kurumsal bir dille satış yapabilmesi gerçekten büyüleyici."
       }
     ],
     "contact": {
-      "address": "Levent Plaza, Büyükdere Caddesi No:193, Şişli, İstanbul",
+      "address": "Levent Plaza, No:12, Beşiktaş, İstanbul, Türkiye",
       "phone": "05541103132",
-      "email": "info@test.com",
-      "map_query": "Levent, İstanbul",
+      "email": "test@test.com",
+      "map_query": "Levent Beşiktaş İstanbul",
       "whatsapp": "05541103132",
       "instagram": "@paplead",
-      "linkedin": "linkedin.com/company/paplead"
+      "linkedin": "linkedin.com/company/paplead-ai"
     }
   }
 }
