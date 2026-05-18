@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "ilos1 - Yapay Zeka Satış Ordusu",
+    "description": "ilos1, işletmeniz için WhatsApp üzerinden çalışan, 7/24 kesintisiz hizmet veren ve satışlarınızı katlayan profesyonel yapay zeka satış temsilcileri geliştirir.",
+    "site_url": "https://ilos1.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#075E54",
+      "secondary": "#128C7E",
+      "background": "#F0F2F5",
+      "text": "#111B21"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech artificial intelligence smartphone business sales",
+    "about_keyword": "tech digital transformation office collaboration",
+    "feature_keywords": [
+      "tech cloud computing network",
+      "tech customer support automation",
+      "tech data analysis dashboard"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "WhatsApp Satışlarınızı Yapay Zeka ile Katlayın",
+      "subheadline": "ilos1 ile 7/24 aktif çalışan dijital satış ordunuzu kurun, hiçbir müşteriyi cevapsız bırakmayın.",
+      "ctaButtonText": "Hemen Başlayın",
+      "badge_text": "Geleceğin Satış Teknolojisi ilos1"
+    },
+    "about": {
+      "title": "Biz Kimiz?",
+      "description": "ilos1 olarak, işletmelerin dijital dönüşüm süreçlerinde WhatsApp altyapısını yapay zeka ile güçlendirerek satış süreçlerini tamamen otonom hale getiriyoruz. Gelişmiş dil modellerimizle müşterilerinizi anlıyor ve profesyonel bir satış temsilcisi gibi hizmet veriyoruz.",
+      "stats": [
+        {
+          "value": "10M+",
+          "label": "Yönetilen Mesaj"
+        },
+        {
+          "value": "250+",
+          "label": "Mutlu İşletme"
+        },
+        {
+          "value": "99.9%",
+          "label": "Sistem Çalışma Süresi"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Akıllı Satış Botları",
+        "description": "Müşterilerinizin ihtiyaçlarını saniyeler içinde analiz eden ve doğrudan satışa yönlendiren yapay zeka asistanları.",
+        "icon": "🚀"
+      },
+      {
+        "title": "7/24 Kesintisiz Destek",
+        "description": "Mesai saatlerinden bağımsız olarak, potansiyel müşterilerinize anında cevap veren global standartlarda destek sistemi.",
+        "icon": "💎"
+      },
+      {
+        "title": "Gelişmiş CRM Entegrasyonu",
+        "description": "WhatsApp üzerinden gerçekleşen tüm konuşmaları mevcut CRM sisteminizle senkronize eden akıllı veri akışı.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "İhtiyaç Analizi",
+        "description": "İşletmenizin satış döngüsünü inceliyor ve size en uygun yapay zeka stratejisini belirliyoruz."
+      },
+      {
+        "step": "02",
+        "title": "AI Eğitimi ve Kurulum",
+        "description": "Yapay zekamızı ürünleriniz ve şirket kültürünüz hakkında derinlemesine eğitiyor ve sisteme entegre ediyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Büyümeyi İzleme",
+        "description": "Sistemi canlıya alıyor ve yapay zekanın satış performansını anlık olarak raporlarla takip ediyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Yapay zeka her dili anlayabiliyor mu?",
+        "answer": "Evet, sistemimiz Türkçe dahil 50'den fazla dilde akıcı ve profesyonel bir şekilde iletişim kurabilmektedir."
+      },
+      {
+        "question": "Kurulum süreci ne kadar sürer?",
+        "answer": "İşletmenizin karmaşıklığına bağlı olarak kurulum ve eğitim süreci genellikle 3 ile 7 iş günü arasında tamamlanır."
+      },
+      {
+        "question": "Mevcut numaramı kullanabilir miyim?",
+        "answer": "Evet, mevcut WhatsApp Business numaranızı sistemimize kolayca entegre edebilir ve hemen kullanmaya başlayabilirsiniz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Can",
+        "role": "E-ticaret Direktörü",
+        "comment": "ilos1 sayesinde gece gelen sipariş sorularını kaçırmıyoruz. Satışlarımızda %40 oranında net bir artış gözlemledik."
+      },
+      {
+        "name": "Selin Aydın",
+        "role": "Satış Müdürü",
+        "comment": "Yapay zekanın müşterilerle kurduğu diyalog kalitesi bizi çok şaşırttı. Sanki gerçek bir insan cevap veriyor gibi profesyonel."
+      }
+    ],
+    "contact": {
+      "address": "Levent Plaza, No:42, İstanbul, Türkiye",
+      "phone": "05541103132",
+      "email": "test@test.com",
+      "map_query": "Levent, İstanbul",
+      "whatsapp": "05541103132",
+      "instagram": "https://instagram.com/ilos1_tech",
+      "linkedin": "https://linkedin.com/company/ilos1"
+    }
+  }
+}
