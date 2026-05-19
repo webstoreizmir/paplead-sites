@@ -134,8 +134,21 @@ function detectCategory(keyword: string): string {
     return 'business';
 }
 
+function hashString(str: string): number {
+    let h = 5381;
+    for (let i = 0; i < str.length; i++) {
+        h = ((h << 5) + h) ^ str.charCodeAt(i);
+    }
+    return Math.abs(h);
+}
+
 export function getSmartImage(keyword: string): string {
-    const category = detectCategory(keyword || '');
+    const k = (keyword || '').toLowerCase().trim();
+    // Direct category key match (Gemini sends exact category names)
+    const direct = stockImages[k];
+    if (direct) return direct[hashString(k) % direct.length];
+    // Fallback: fuzzy keyword detection
+    const category = detectCategory(k);
     const images = stockImages[category] || stockImages.business;
-    return images[Math.floor(Math.random() * images.length)];
+    return images[hashString(k) % images.length];
 }
