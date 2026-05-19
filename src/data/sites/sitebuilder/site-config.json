@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "İzmir Web Store - Profesyonel Otonom Web Tasarım Çözümleri",
+    "description": "Yapay zeka destekli otonom sistemimizle sadece 5 dakika içerisinde lüks ve premium standartlarda B2B web siteleri oluşturun. İşletmenizi dijital dünyada en hızlı ve etkileyici şekilde konumlandırın.",
+    "site_url": "https://sitebuilder.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#BD00FF",
+      "secondary": "#7000FF",
+      "background": "#050505",
+      "text": "#F8F9FA"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech",
+    "about_keyword": "tech",
+    "feature_keywords": [
+      "artificial intelligence",
+      "user interface",
+      "software development"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "5 Dakikada Kusursuz ve Profesyonel Web Siteniz Hazır",
+      "subheadline": "İşletmeniz için en prestijli dijital varlığı otonom sistemimizle anında oluşturun ve rakiplerinize büyük fark atın.",
+      "ctaButtonText": "Hemen Oluştur",
+      "badge_text": "Geleceğin Yapay Zeka Tasarım Teknolojisi"
+    },
+    "about": {
+      "title": "Dijital Dönüşümde Otonom Devrim",
+      "description": "İzmir Web Store olarak, geleneksel tasarım süreçlerini ortadan kaldırıyoruz. B2B odaklı, lüks ve premium tasarımları sadece 5 dakika içerisinde otonom olarak hayata geçiriyoruz. Profesyonelliği hızla birleştiriyoruz.",
+      "stats": [
+        {
+          "value": "300+",
+          "label": "Tamamlanan Proje"
+        },
+        {
+          "value": "5 Dakika",
+          "label": "Kurulum Süresi"
+        },
+        {
+          "value": "100%",
+          "label": "Müşteri Memnuniyeti"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Otonom Web Tasarımı",
+        "description": "Gelişmiş algoritmalarımız sayesinde sektörünüze en uygun premium tasarımı saniyeler içinde belirliyor ve uyguluyoruz.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Hızlı Kurulum Süreci",
+        "description": "Vaktinizin değerli olduğunu biliyoruz; bu yüzden tüm teknik süreçleri sadece 5 dakikada tamamlayıp sitenizi yayına alıyoruz.",
+        "icon": "💎"
+      },
+      {
+        "title": "B2B Odaklı Strateji",
+        "description": "Hedef kitlenize en doğru mesajı veren, güven aşılayan ve lüks detaylarla donatılmış profesyonel arayüzler sunuyoruz.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Veri Girişi",
+        "description": "İşletmenize ait temel bilgileri sistemimize girerek süreci başlatın."
+      },
+      {
+        "step": "02",
+        "title": "Otonom Üretim",
+        "description": "Yapay zekamız size özel premium tasarımı saniyeler içinde kurgular."
+      },
+      {
+        "step": "03",
+        "title": "Anında Yayın",
+        "description": "Profesyonel web siteniz tüm cihazlara uyumlu şekilde 5 dakikada yayında."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sistem nasıl bu kadar hızlı çalışıyor?",
+        "answer": "Önceden optimize edilmiş premium bileşenler ve yapay zeka entegrasyonu sayesinde tüm kodlama ve tasarım süreci otonom olarak gerçekleşir."
+      },
+      {
+        "question": "Web sitem mobil cihazlarla uyumlu mu?",
+        "answer": "Evet, üretilen tüm web siteleri en güncel responsive teknolojilerle donatılmış olup tüm ekranlarda mükemmel görünür."
+      },
+      {
+        "question": "Tasarım gerçekten profesyonel mi?",
+        "answer": "Sistemimiz lüks ve premium tasarım standartlarını baz alarak çıktı üretir, kurumsal imajınızı en üst seviyeye taşır."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Selim Aksoy",
+        "role": "Lojistik Şirketi Sahibi",
+        "comment": "Web sitemizin bu kadar kısa sürede ve bu kadar lüks görünmesi gerçekten büyüleyici. Kesinlikle tavsiye ediyorum."
+      },
+      {
+        "name": "Merve Yılmaz",
+        "role": "Yazılım Direktörü",
+        "comment": "B2B ihtiyaçlarımızı bu denli hızlı ve profesyonel karşılayan başka bir çözümle daha önce karşılaşmamıştık."
+      }
+    ],
+    "contact": {
+      "address": "İzmir Teknoloji Geliştirme Merkezi, İzmir, Türkiye",
+      "phone": "05541103132",
+      "email": "info@izmirwebstore.com",
+      "map_query": "izmir, Türkiye",
+      "whatsapp": "05541103132",
+      "instagram": "@izmirwebstore",
+      "linkedin": "linkedin.com/company/izmirwebstore"
+    }
+  }
+}
