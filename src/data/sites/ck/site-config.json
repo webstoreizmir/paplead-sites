@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "CK Yazılım ve Otomasyon Çözümleri",
+    "description": "CK Yazılım, işletmeler için özelleştirilmiş yüksek teknolojili yazılım otomasyon çözümleri sunan lider bir teknoloji firmasıdır. Süreçlerinizi dijitalleştirin ve verimliliğinizi maksimize edin.",
+    "site_url": "https://ck.co"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#00d2ff",
+      "secondary": "#9d50bb",
+      "background": "#0f172a",
+      "text": "#f8fafc"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "high-tech software automation server room dark blue",
+    "about_keyword": "professional software developers working on futuristic code",
+    "feature_keywords": [
+      "robotic process automation tech",
+      "artificial intelligence software",
+      "cloud computing data"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Geleceğin Yazılım Otomasyonu Bugün Burada",
+      "subheadline": "İş süreçlerinizi akıllı yazılım çözümleriyle dijitalleştirerek hata payını sıfıra indirin ve hız kazanın.",
+      "ctaButtonText": "Hemen Teklif Al",
+      "badge_text": "Yenilikçi Teknoloji Ortağınız"
+    },
+    "about": {
+      "title": "CK Teknoloji Hakkında",
+      "description": "CK, on yılı aşkın tecrübesiyle yazılım otomasyonu alanında inovatif çözümler üreten bir teknoloji merkezidir. Karmaşık iş süreçlerini basitleştiren mimarilerimizle global standartlarda mühendislik hizmeti sunuyoruz.",
+      "stats": [
+        {
+          "value": "15+",
+          "label": "Yıllık Deneyim"
+        },
+        {
+          "value": "300+",
+          "label": "Başarılı Proje"
+        },
+        {
+          "value": "100%",
+          "label": "Müşteri Memnuniyeti"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Endüstriyel Otomasyon",
+        "description": "Üretim hatlarınızı akıllı yazılımlar ile entegre ederek verimliliği en üst seviyeye taşıyoruz.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Özel Yazılım Geliştirme",
+        "description": "İşletmenize özel, ölçeklenebilir ve güvenli yazılım mimarileri inşa ederek dijital dönüşümü sağlıyoruz.",
+        "icon": "💎"
+      },
+      {
+        "title": "Süreç Optimizasyonu",
+        "description": "Yapay zeka destekli analizlerimizle iş akışlarınızdaki darboğazları tespit edip otomatikleştiriyoruz.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Detaylı Analiz",
+        "description": "Mevcut sistemlerinizi inceliyor ve otomasyon potansiyelini raporluyoruz."
+      },
+      {
+        "step": "02",
+        "title": "Stratejik Geliştirme",
+        "description": "İhtiyaçlarınıza en uygun teknoloji yığınını seçerek kodlama sürecini başlatıyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Entegrasyon ve Destek",
+        "description": "Sistemleri canlıya alıyor ve kesintisiz teknik destek hizmeti sağlıyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Otomasyon süreci ne kadar sürer?",
+        "answer": "Projenin kapsamına bağlı olarak genellikle 4-8 hafta içerisinde kurulum tamamlanmaktadır."
+      },
+      {
+        "question": "Mevcut sistemlerle uyumlu mu?",
+        "answer": "Evet, geliştirdiğimiz yazılımlar tüm popüler ERP ve CRM sistemleriyle tam entegre çalışabilmektedir."
+      },
+      {
+        "question": "Bakım hizmeti veriyor musunuz?",
+        "answer": "Elbette, tüm sistemlerimiz için 7/24 teknik bakım ve güncelleme desteği sunmaya devam ediyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Karaca",
+        "role": "Operasyon Direktörü",
+        "comment": "CK ile çalışmaya başladıktan sonra manuel iş yükümüz %70 oranında azaldı. İnanılmaz bir verimlilik sağladılar."
+      },
+      {
+        "name": "Selin Aydın",
+        "role": "Teknoloji Müdürü",
+        "comment": "Yazılım otomasyonu konusundaki uzmanlıkları ve çözüm odaklı yaklaşımları projelerimizi başarıya ulaştırdı."
+      }
+    ],
+    "contact": {
+      "address": "Levent Plaza, Büyükdere Caddesi No:129 Beşiktaş, İstanbul",
+      "phone": "05541103132",
+      "email": "ck@ck.com",
+      "map_query": "Levent, Beşiktaş, İstanbul",
+      "whatsapp": "05541103132",
+      "instagram": "ck_yazilim_teknoloji",
+      "linkedin": "ck-software-automation"
+    }
+  }
+}
