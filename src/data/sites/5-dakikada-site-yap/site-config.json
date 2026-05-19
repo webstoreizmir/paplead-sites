@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "5 Dakikada Site Yap - Profesyonel Dijital Çözümler",
+    "description": "İşletmeniz için teknik bilgi gerektirmeden, sadece 5 dakika içerisinde profesyonel ve SEO uyumlu web siteleri oluşturun. B2B odaklı modern altyapımızla dijital dünyadaki yerinizi hemen alın.",
+    "site_url": "https://5-dakikada-site-yap.co"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#8B5CF6",
+      "secondary": "#A78BFA",
+      "background": "#0F172A",
+      "text": "#F8FAFC"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech",
+    "about_keyword": "tech",
+    "feature_keywords": [
+      "software interface",
+      "cloud computing",
+      "web development"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Profesyonel Web Siteniz Sadece 5 Dakikada Yayında",
+      "subheadline": "Teknik kodlama bilgisine ihtiyaç duymadan modern ve teknolojik web sitenizi bugün oluşturmaya başlayın.",
+      "ctaButtonText": "Hemen Siteni Kur",
+      "badge_text": "Hızlı ve Güvenilir Web Çözümleri"
+    },
+    "about": {
+      "title": "Neden 5 Dakikada Site Yap?",
+      "description": "Paplead güvencesiyle sunduğumuz bu platformda, B2B sektöründeki işletmelerin dijital dönüşüm süreçlerini hızlandırıyoruz. Karmaşık yazılım süreçlerini ortadan kaldırarak her ölçekteki işletme için erişilebilir, modern ve teknolojik dark mode tasarımlar sunuyoruz.",
+      "stats": [
+        {
+          "value": "5 Dakika",
+          "label": "Kurulum Süresi"
+        },
+        {
+          "value": "1000+",
+          "label": "Mutlu İşletme Sahibi"
+        },
+        {
+          "value": "99.9%",
+          "label": "Uptime Garantisi"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Hızlı Web Kurulumu",
+        "description": "İşletme bilgilerinizi girin ve profesyonel sitenizin saniyeler içinde otomatik olarak oluşmasını izleyin.",
+        "icon": "🚀"
+      },
+      {
+        "title": "SEO Uyumlu Altyapı",
+        "description": "Arama motorlarında üst sıralarda yer almanız için gerekli tüm teknik SEO optimizasyonları hazır gelir.",
+        "icon": "💎"
+      },
+      {
+        "title": "Mobil Uyumlu Tasarım",
+        "description": "Tüm cihazlarda ve ekran boyutlarında kusursuz görünen responsive tasarımlarla kullanıcı deneyimini artırın.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Bilgilerinizi Girin",
+        "description": "İşletme adınızı, hizmetlerinizi ve iletişim bilgilerinizi sisteme tanımlayın."
+      },
+      {
+        "step": "02",
+        "title": "Tasarımınızı Seçin",
+        "description": "Sektörünüze en uygun modern ve teknolojik temalar arasından seçiminizi yapın."
+      },
+      {
+        "step": "03",
+        "title": "Yayına Geçin",
+        "description": "Tek tıkla sitenizi yayına alın ve profesyonel dijital varlığınızın keyfini çıkarın."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Herhangi bir kodlama bilmem gerekiyor mu?",
+        "answer": "Kesinlikle hayır. Sistemimiz tamamen teknik bilgi gerektirmeyen bir yapı üzerine kurulmuştur."
+      },
+      {
+        "question": "Web sitem mobil cihazlarda nasıl görünür?",
+        "answer": "Tüm tasarımlarımız mobil öncelikli olarak geliştirilmiştir ve telefonlarda harika görünür."
+      },
+      {
+        "question": "Teknik destek sağlıyor musunuz?",
+        "answer": "Evet, her türlü sorunuz için destek ekibimiz mail ve WhatsApp üzerinden hizmet vermektedir."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Yılmaz",
+        "role": "Teknoloji Direktörü",
+        "comment": "Bu kadar kısa sürede bu kadar profesyonel bir sonuç almayı beklemiyordum, gerçekten etkileyici bir sistem."
+      },
+      {
+        "name": "Selin Demir",
+        "role": "İş Geliştirme Müdürü",
+        "comment": "B2B operasyonlarımız için hızlıca bir web sitesine ihtiyacımız vardı, 5 dakikada tüm sorunumuzu çözdüler."
+      }
+    ],
+    "contact": {
+      "address": "London, United Kingdom (İngiltere London)",
+      "phone": "05541103132",
+      "email": "support@paplead.com",
+      "map_query": "London, United Kingdom",
+      "whatsapp": "05541103132",
+      "instagram": "@paplead",
+      "linkedin": "linkedin.com/company/paplead-software"
+    }
+  }
+}
