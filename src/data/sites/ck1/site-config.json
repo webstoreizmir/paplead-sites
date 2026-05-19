@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "ck1 - Geleceğin Yazılım Otomasyon Teknolojileri",
+    "description": "ck1, işletmenizin operasyonel verimliliğini artıran ileri teknoloji yazılım otomasyon çözümleri ve stratejik dijital dönüşüm danışmanlığı sunan lider bir teknoloji partneridir.",
+    "site_url": "https://ck1.co"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#38bdf8",
+      "secondary": "#1e293b",
+      "background": "#0f172a",
+      "text": "#f8fafc"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "modern software automation digital system technology dark",
+    "about_keyword": "robotic process automation developer working on code",
+    "feature_keywords": [
+      "artificial intelligence coding",
+      "server infrastructure cloud",
+      "digital transformation data"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "ck1: Yazılım Otomasyonu ile İş Süreçlerinizi Hızlandırın",
+      "subheadline": "Karmaşık operasyonları basitleştiren, hata payını minimize eden ve verimliliği maksimize eden akıllı yazılım sistemleri.",
+      "ctaButtonText": "Hemen Keşfedin",
+      "badge_text": "Yeni Nesil Teknolojik Çözümler"
+    },
+    "about": {
+      "title": "Biz Kimiz ve Neyi Hedefliyoruz?",
+      "description": "ck1 olarak yazılım dünyasındaki en güncel otomasyon teknolojilerini kullanarak işletmelerin dijitalleşme süreçlerine profesyonel liderlik ediyoruz. Deneyimli ekibimizle manuel süreçleri yüksek performanslı dijital sistemlere dönüştürerek sürdürülebilir başarı sağlıyoruz.",
+      "stats": [
+        {
+          "value": "12+",
+          "label": "Yıllık Sektör Tecrübesi"
+        },
+        {
+          "value": "250+",
+          "label": "Tamamlanan Proje"
+        },
+        {
+          "value": "99%",
+          "label": "Müşteri Memnuniyeti"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Robotik Süreç Otomasyonu",
+        "description": "Tekrar eden iş görevlerini otonom botlara devrederek zaman ve maliyet tasarrufu sağlayan özel çözümler.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Özel Yazılım Geliştirme",
+        "description": "İşletmenizin özel ihtiyaçlarına göre tasarlanmış, ölçeklenebilir ve güvenli yazılım mimarisi inşa ediyoruz.",
+        "icon": "💎"
+      },
+      {
+        "title": "Sistem Entegrasyonları",
+        "description": "Farklı platformların birbiriyle kusursuz ve hızlı bir şekilde konuşmasını sağlayan API ve veri çözümleri.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "İhtiyaç Analizi",
+        "description": "İş süreçlerinizi detaylıca inceleyerek otomasyon potansiyelini ve stratejimizi belirliyoruz."
+      },
+      {
+        "step": "02",
+        "title": "Geliştirme Süreci",
+        "description": "En yüksek güvenlik standartlarında kodlama yaparak sisteminizi modern teknolojilerle kuruyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Destek ve Yayım",
+        "description": "Sistemi canlıya aldıktan sonra sürekli performans izleme ve teknik destek hizmeti sunuyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Yazılım otomasyonu bize ne sağlar?",
+        "answer": "Hata payını sıfıra indirirken operasyonel hızınızı %300'e kadar artırabilir ve personel maliyetlerinizi optimize edebilirsiniz."
+      },
+      {
+        "question": "Güvenlik protokolleriniz nelerdir?",
+        "answer": "Tüm projelerimizde uçtan uca şifreleme ve en güncel siber güvenlik protokollerini uygulayarak verilerinizi koruyoruz."
+      },
+      {
+        "question": "Destek süreciniz nasıl işliyor?",
+        "answer": "Sistem kurulumu sonrasında 7/24 teknik izleme ve aylık bakım periyotları ile kesintisiz hizmet sunmaya devam ediyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Karahan",
+        "role": "Operasyon Direktörü",
+        "comment": "ck1 ile yaptığımız otomasyon projesi sayesinde manuel iş yükümüz %60 azaldı, ekibe profesyonellikleri için teşekkürler."
+      },
+      {
+        "name": "Selin Demir",
+        "role": "Teknoloji Müdürü",
+        "comment": "Sektördeki en hızlı ve güvenilir yazılım çözümlerini ck1 sunuyor. Entegrasyon süreçleri oldukça sorunsuz geçti."
+      }
+    ],
+    "contact": {
+      "address": "Levent Plaza, Büyükdere Caddesi No:193, Beşiktaş, İstanbul",
+      "phone": "05541103132",
+      "email": "c1@test.com",
+      "map_query": "Levent Beşiktaş İstanbul",
+      "whatsapp": "05541103132",
+      "instagram": "https://instagram.com/ck1yazilim",
+      "linkedin": "https://linkedin.com/company/ck1yazilim"
+    }
+  }
+}
