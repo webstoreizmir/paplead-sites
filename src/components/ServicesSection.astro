@@ -7,43 +7,71 @@ interface Service {
 
 interface Props {
   services: Service[];
-  featureKeywords?: string[];
 }
 
 const { services } = Astro.props;
+
+const bgIcons = [
+  `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>`,
+  `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>`,
+  `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>`,
+  `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>`,
+];
 ---
 
-<section id="services" class="py-32 bg-slate-50 relative overflow-hidden">
+<section id="services" class="py-28 relative overflow-hidden" style="background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)">
+  <!-- Decorative circles -->
+  <div class="absolute top-10 right-10 w-64 h-64 rounded-full opacity-5 pointer-events-none" style="background: rgb(var(--color-primary))"></div>
+  <div class="absolute bottom-10 left-10 w-48 h-48 rounded-full opacity-5 pointer-events-none" style="background: rgb(var(--color-secondary))"></div>
+
   <div class="container-custom relative z-10">
-    <div class="max-w-2xl mb-16">
-      <span class="text-[rgb(var(--color-primary))] font-bold tracking-wider uppercase text-sm mb-2 block">Hizmetlerimiz</span>
-      <h2 class="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6">
-        Size Nasıl Değer Katabiliriz?
-      </h2>
-      <p class="text-slate-600 text-lg">İhtiyaçlarınıza özel, modern ve ölçeklenebilir çözümler sunuyoruz.</p>
+    <!-- Header -->
+    <div class="text-center max-w-2xl mx-auto mb-20" data-animate>
+      <span class="section-label">Hizmetlerimiz</span>
+      <h2 class="section-title mb-5">Size Nasıl Değer Katabiliriz?</h2>
+      <p class="section-subtitle">İhtiyaçlarınıza özel, modern ve ölçeklenebilir çözümler sunuyoruz.</p>
     </div>
-    
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      {services.map((service) => (
-        <div class="group bg-white p-8 rounded-3xl hover:shadow-2xl hover:shadow-[rgb(var(--color-primary))]/5 transition-all duration-300 border border-slate-100 hover:-translate-y-2 relative overflow-hidden">
-            <!-- Arkaplan Efekti -->
-            <div class="absolute top-0 right-0 w-24 h-24 bg-[rgb(var(--color-primary))] opacity-5 rounded-bl-full transform translate-x-4 -translate-y-4 group-hover:scale-150 transition-transform duration-500"></div>
 
-            <!-- İkon Kutusu -->
-            <div class="w-16 h-16 rounded-2xl bg-[rgb(var(--color-primary))]/10 flex items-center justify-center text-4xl mb-8 text-[rgb(var(--color-primary))] group-hover:bg-[rgb(var(--color-primary))] group-hover:text-white transition-all duration-300 shadow-sm">
-                {service.icon}
-            </div>
+    <!-- Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {services.map((service, i) => (
+        <div
+          class="group relative bg-white rounded-3xl p-8 shadow-sm hover:shadow-2xl transition-all duration-500 border border-slate-100 hover:-translate-y-2 overflow-hidden cursor-pointer"
+          data-animate
+          data-animate-delay={String(i * 100)}
+        >
+          <!-- Top right glow on hover -->
+          <div
+            class="absolute -top-8 -right-8 w-32 h-32 rounded-full opacity-0 group-hover:opacity-10 transition-all duration-500 scale-0 group-hover:scale-150"
+            style="background: rgb(var(--color-primary))"
+          ></div>
 
-            <h3 class="text-xl font-heading font-bold mb-4 text-slate-900">
-                {service.title}
-            </h3>
-            <p class="text-slate-600 leading-relaxed mb-6">
-                {service.description}
-            </p>
-            
-            <a href="#contact" class="inline-flex items-center text-[rgb(var(--color-primary))] font-semibold text-sm group-hover:translate-x-2 transition-transform">
-                Daha Fazla Bilgi <span class="ml-2">&rarr;</span>
-            </a>
+          <!-- Icon -->
+          <div class="relative w-16 h-16 rounded-2xl flex items-center justify-center mb-7 shadow-lg overflow-hidden transition-all duration-300 group-hover:scale-110 group-hover:shadow-xl bg-primary-gradient">
+            {service.icon
+              ? <span class="text-3xl relative z-10 drop-shadow">{service.icon}</span>
+              : <div class="w-8 h-8 text-white" set:html={bgIcons[i % bgIcons.length]} />
+            }
+          </div>
+
+          <h3 class="text-xl font-heading font-bold mb-3 text-slate-900 group-hover:text-[rgb(var(--color-primary))] transition-colors duration-300">
+            {service.title}
+          </h3>
+
+          <p class="text-slate-500 leading-relaxed text-sm mb-7">
+            {service.description}
+          </p>
+
+          <a
+            href="#contact"
+            class="inline-flex items-center gap-2 font-semibold text-sm transition-all duration-300"
+            style="color: rgb(var(--color-primary))"
+          >
+            Detay Alın
+            <svg class="w-4 h-4 group-hover:translate-x-1.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
         </div>
       ))}
     </div>

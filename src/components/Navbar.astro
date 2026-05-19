@@ -6,62 +6,79 @@ interface Props {
 const { title } = Astro.props;
 ---
 
-<nav class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-slate-900/80 backdrop-blur-lg border-b border-white/10">
-  <div class="container mx-auto px-6 py-4">
+<nav id="main-nav" class="fixed top-0 left-0 right-0 z-50">
+  <div class="container mx-auto px-6 py-5">
     <div class="flex items-center justify-between">
       <!-- Logo -->
       <a href="#" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-[rgb(var(--color-primary))] to-[rgb(var(--color-secondary))] flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform">
-          {title.charAt(0)}
+        <div class="w-10 h-10 rounded-xl flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-110 transition-transform bg-primary-gradient">
+          {title.charAt(0).toUpperCase()}
         </div>
-        <span class="text-xl font-heading font-bold text-white tracking-tight group-hover:text-[rgb(var(--color-primary))] transition-colors">
+        <span class="text-xl font-heading font-bold text-white tracking-tight drop-shadow-sm">
           {title}
         </span>
       </a>
 
       <!-- Desktop Menu -->
-      <div class="hidden md:flex items-center space-x-8">
-        <a href="#hero" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Ana Sayfa</a>
-        <a href="#about" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Hakkımızda</a>
-        <a href="#services" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Hizmetler</a>
-        <a href="#testimonials" class="text-sm font-medium text-slate-300 hover:text-white transition-colors">Referanslar</a>
+      <div class="hidden md:flex items-center gap-8">
+        <a href="#about" class="text-sm font-medium text-white/80 hover:text-white transition-colors">Hakkımızda</a>
+        <a href="#services" class="text-sm font-medium text-white/80 hover:text-white transition-colors">Hizmetler</a>
+        <a href="#process" class="text-sm font-medium text-white/80 hover:text-white transition-colors">Nasıl Çalışır</a>
+        <a href="#testimonials" class="text-sm font-medium text-white/80 hover:text-white transition-colors">Referanslar</a>
         <a
           href="#contact"
-          class="px-5 py-2.5 rounded-full bg-[rgb(var(--color-primary))] text-white text-sm font-bold hover:bg-[rgb(var(--color-secondary))] hover:shadow-lg hover:shadow-[rgb(var(--color-primary))]/30 transition-all transform hover:-translate-y-0.5"
+          class="px-5 py-2.5 rounded-full bg-white text-slate-900 text-sm font-bold shadow hover:shadow-lg transition-all hover:-translate-y-0.5"
         >
           İletişim
         </a>
       </div>
 
-      <!-- Mobile Menu Button -->
+      <!-- Mobile Button -->
       <button id="mobile-menu-btn" class="md:hidden text-white p-2" aria-label="Menüyü Aç">
         <svg id="icon-open" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
         </svg>
         <svg id="icon-close" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
         </svg>
       </button>
     </div>
   </div>
 
-  <!-- Mobile Menu Panel -->
-  <div id="mobile-menu" class="md:hidden hidden bg-slate-900/95 backdrop-blur-lg border-t border-white/10">
-    <div class="container mx-auto px-6 py-4 flex flex-col gap-2">
-      <a href="#hero" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Ana Sayfa</a>
-      <a href="#about" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Hakkımızda</a>
-      <a href="#services" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Hizmetler</a>
-      <a href="#testimonials" class="mobile-link py-3 text-slate-300 hover:text-white border-b border-white/5 transition-colors">Referanslar</a>
-      <a href="#contact" class="mt-2 py-3 px-5 rounded-xl bg-[rgb(var(--color-primary))] text-white text-center font-bold transition-colors hover:bg-[rgb(var(--color-secondary))]">İletişim</a>
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden hidden border-t border-white/10 bg-slate-900/98 backdrop-blur-xl">
+    <div class="container mx-auto px-6 py-4 flex flex-col gap-1">
+      <a href="#about"        class="mobile-link py-3 px-3 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Hakkımızda</a>
+      <a href="#services"     class="mobile-link py-3 px-3 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Hizmetler</a>
+      <a href="#process"      class="mobile-link py-3 px-3 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Nasıl Çalışır</a>
+      <a href="#testimonials" class="mobile-link py-3 px-3 rounded-lg text-slate-300 hover:text-white hover:bg-white/5 transition-colors">Referanslar</a>
+      <a href="#contact" class="mobile-link mt-2 py-3 px-5 rounded-xl text-white font-bold text-center transition-colors bg-primary-gradient">İletişim</a>
     </div>
   </div>
 </nav>
 
 <script>
+  const nav = document.getElementById('main-nav')!;
   const btn = document.getElementById('mobile-menu-btn');
   const menu = document.getElementById('mobile-menu');
   const iconOpen = document.getElementById('icon-open');
   const iconClose = document.getElementById('icon-close');
+
+  // Scroll effect: transparent → solid dark
+  function updateNav() {
+    if (window.scrollY > 60) {
+      nav.style.backgroundColor = 'rgba(15, 23, 42, 0.97)';
+      nav.style.backdropFilter = 'blur(16px)';
+      nav.style.boxShadow = '0 1px 0 rgba(255,255,255,0.06)';
+    } else {
+      nav.style.backgroundColor = 'transparent';
+      nav.style.backdropFilter = 'none';
+      nav.style.boxShadow = 'none';
+    }
+  }
+
+  updateNav();
+  window.addEventListener('scroll', updateNav, { passive: true });
 
   btn?.addEventListener('click', () => {
     const isOpen = !menu?.classList.contains('hidden');

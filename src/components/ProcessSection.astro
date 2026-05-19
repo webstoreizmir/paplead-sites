@@ -10,30 +10,79 @@ interface Props {
 }
 
 const { steps } = Astro.props;
-const cols = steps.length === 4 ? 'md:grid-cols-2 lg:grid-cols-4' : steps.length === 6 ? 'md:grid-cols-3' : 'md:grid-cols-3';
 ---
 
-<section class="py-24 bg-white relative overflow-hidden">
-  <div class="container-custom">
-    <div class="text-center mb-20">
-      <span class="text-[rgb(var(--color-primary))] font-bold tracking-wider uppercase text-sm mb-2 block">Çalışma Şeklimiz</span>
-      <h2 class="text-4xl font-heading font-bold text-slate-900">Süreç Nasıl İşliyor?</h2>
+<section id="process" class="py-28 bg-white relative overflow-hidden">
+  <!-- Subtle grid pattern -->
+  <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: linear-gradient(rgb(var(--color-primary)) 1px, transparent 1px), linear-gradient(to right, rgb(var(--color-primary)) 1px, transparent 1px); background-size: 48px 48px;"></div>
+
+  <div class="container-custom relative z-10">
+    <!-- Header -->
+    <div class="text-center max-w-2xl mx-auto mb-20" data-animate>
+      <span class="section-label">Çalışma Şeklimiz</span>
+      <h2 class="section-title mb-5">Süreç Nasıl İşliyor?</h2>
+      <p class="section-subtitle">Basit, şeffaf ve sonuç odaklı bir yaklaşımla her adımda yanınızdayız.</p>
     </div>
 
-    <div class={`grid grid-cols-1 ${cols} gap-12 relative`}>
-      <div class="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-slate-100 -z-10"></div>
+    <!-- Steps -->
+    <div class="relative">
+      <!-- Connecting line (desktop) -->
+      <div class="hidden lg:block absolute top-[52px] left-[calc(16.666%+48px)] right-[calc(16.666%+48px)] h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent z-0"></div>
 
-      {steps.map((item) => (
-        <div class="relative group">
-          <div class="w-24 h-24 mx-auto bg-white rounded-full border-4 border-slate-50 flex items-center justify-center mb-8 shadow-lg group-hover:border-[rgb(var(--color-primary))] group-hover:scale-110 transition-all duration-300 relative z-10">
-            <span class="text-3xl font-bold text-[rgb(var(--color-primary))]">{item.step}</span>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {steps.map((item, i) => (
+          <div
+            class="relative group flex flex-col items-center text-center"
+            data-animate
+            data-animate-delay={String(i * 150)}
+          >
+            <!-- Step Circle -->
+            <div class="relative w-24 h-24 mb-8 z-10">
+              <!-- Outer ring -->
+              <div
+                class="absolute inset-0 rounded-full opacity-0 group-hover:opacity-20 transition-all duration-500 scale-110"
+                style="background: rgb(var(--color-primary))"
+              ></div>
+              <!-- Inner circle -->
+              <div
+                class="w-full h-full rounded-full flex items-center justify-center shadow-xl border-4 border-white group-hover:scale-110 transition-transform duration-300 bg-primary-gradient"
+              >
+                <span class="text-2xl font-bold text-white">{item.step}</span>
+              </div>
+            </div>
+
+            <!-- Content -->
+            <h3 class="text-xl font-bold mb-3 text-slate-900 group-hover:text-[rgb(var(--color-primary))] transition-colors">{item.title}</h3>
+            <p class="text-slate-500 leading-relaxed text-sm max-w-xs">{item.description}</p>
+
+            {i < steps.length - 1 && (
+              <div class="lg:hidden mt-8 flex items-center gap-1">
+                <div class="w-1.5 h-1.5 rounded-full" style="background: rgb(var(--color-primary))"></div>
+                <div class="w-1.5 h-1.5 rounded-full opacity-60" style="background: rgb(var(--color-primary))"></div>
+                <div class="w-1.5 h-1.5 rounded-full opacity-30" style="background: rgb(var(--color-primary))"></div>
+              </div>
+            )}
           </div>
-          <div class="text-center px-4">
-            <h3 class="text-xl font-bold mb-4 text-slate-900">{item.title}</h3>
-            <p class="text-slate-600 leading-relaxed">{item.description}</p>
-          </div>
+        ))}
+      </div>
+    </div>
+
+    <!-- CTA Banner -->
+    <div class="mt-20 rounded-3xl overflow-hidden relative" data-animate>
+      <div class="absolute inset-0 bg-primary-gradient opacity-95"></div>
+      <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 28px 28px;"></div>
+      <div class="relative z-10 px-10 py-12 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        <div>
+          <h3 class="text-2xl md:text-3xl font-bold text-white mb-2">Hemen Başlamaya Hazır mısınız?</h3>
+          <p class="text-white/80 text-lg">Ücretsiz danışmanlık için bize ulaşın.</p>
         </div>
-      ))}
+        <a
+          href="#contact"
+          class="flex-shrink-0 px-8 py-4 rounded-full bg-white font-bold text-slate-900 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-sm"
+        >
+          Ücretsiz Danışmanlık Al →
+        </a>
+      </div>
     </div>
   </div>
 </section>
