@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "izmirwebstore | Otonom Satış Teknolojileri",
+    "description": "Google Maps üzerinden müşterinizi bulan, Yapay Zeka ile iletişime geçen ve randevunuzu alan otonom satış ordusu. 7/24 operasyonel kalırken, maliyet verimliliği sağlar.",
+    "site_url": "https://izmirwebstore"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#00d1ff",
+      "secondary": "#7b61ff",
+      "background": "#050505",
+      "text": "#e0e0e0"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech",
+    "about_keyword": "tech",
+    "feature_keywords": [
+      "software",
+      "automation",
+      "intelligence"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Satış Ekibinize Nükleer Silah Verin",
+      "subheadline": "Google Maps üzerinden müşterileri bulan ve AI ile randevu alan otonom satış ordusuyla tanışın.",
+      "ctaButtonText": "Hemen Başlatın",
+      "badge_text": "7/24 Aktif Yapay Zeka Operasyonu"
+    },
+    "about": {
+      "title": "Geleceğin Satış Gücü",
+      "description": "İzmirwebstore olarak geleneksel satış yöntemlerini yapay zeka ile baştan tanımlıyoruz. Google Maps verilerini kullanarak potansiyel müşterilerinizi tespit eden ve onlarla otonom olarak iletişime geçen sistemlerimizle işletmenize nükleer bir güç katıyoruz. 7/24 çalışan dijital ordunuzla randevularınızı otomatikleştirin.",
+      "stats": [
+        {
+          "value": "10k+",
+          "label": "Otomatik Randevu"
+        },
+        {
+          "value": "24/7",
+          "label": "Aktif Çalışma"
+        },
+        {
+          "value": "90%",
+          "label": "Maliyet Tasarrufu"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Otonom Satış Botları",
+        "description": "Yapay zeka botlarımız hedef kitlenize doğrudan ulaşır ve satış süreçlerinizi yönetir.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Özel Web Yazılımları",
+        "description": "İşletmenizin ihtiyaçlarına özel, yüksek dönüşüm odaklı teknolojik altyapılar geliştiriyoruz.",
+        "icon": "💎"
+      },
+      {
+        "title": "Akıllı Randevu Sistemleri",
+        "description": "Müşterilerinizle iletişime geçen yapay zeka, takviminizi otomatik olarak doldurur.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Veri Analizi",
+        "description": "Google Maps üzerinden sektörünüze uygun en doğru müşteri datalarını saniyeler içinde tarıyoruz."
+      },
+      {
+        "step": "02",
+        "title": "AI Entegrasyonu",
+        "description": "Belirlenen potansiyel müşterilere özel yapay zeka iletişim senaryolarını devreye alıyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Otonom Randevu",
+        "description": "Sistemimiz görüşmeleri gerçekleştirir ve sadece kesinleşmiş randevuları size teslim eder."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sistem nasıl müşteri buluyor?",
+        "answer": "Gelişmiş algoritmalarımız Google Maps üzerindeki işletme verilerini analiz ederek en güncel datayı çeker."
+      },
+      {
+        "question": "Yapay zeka nasıl konuşuyor?",
+        "answer": "Doğal dil işleme (NLP) teknolojisi sayesinde müşterilerinizle gerçek bir insan gibi akıcı iletişim kurar."
+      },
+      {
+        "question": "Maliyetler nasıl düşüyor?",
+        "answer": "Geleneksel çağrı merkezleri veya satış ekiplerinin aksine, AI botlar kesintisiz ve hatasız çalışarak genel giderleri minimize eder."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Selçuk Yılmaz",
+        "role": "Teknoloji Direktörü",
+        "comment": "Satış süreçlerimizdeki verimlilik bu sistem sayesinde tam üç katına çıktı, inanılmaz bir teknoloji."
+      },
+      {
+        "name": "Merve Koray",
+        "role": "İşletme Sahibi",
+        "comment": "Artık randevu almak için vakit harcamıyoruz, izmirwebstore bizim yerimize her şeyi otonom hallediyor."
+      }
+    ],
+    "contact": {
+      "address": "İzmir Teknoloji Geliştirme Bölgesi, İzmir",
+      "phone": "+905541103132",
+      "email": "cankavlak@gmail.com",
+      "map_query": "izmir, Türkiye",
+      "whatsapp": "05541103132",
+      "instagram": "https://instagram.com/izmirwebstore",
+      "linkedin": "https://linkedin.com/company/izmirwebstore"
+    }
+  }
+}
