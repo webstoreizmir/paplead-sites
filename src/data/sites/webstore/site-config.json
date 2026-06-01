@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "webstore - Otonom Yapay Zeka Satış Ordusu Teknolojileri",
+    "description": "Google Maps üzerinden potansiyel müşterilerinizi bulan, yapay zeka ile profesyonel iletişim kuran ve randevularınızı 7/24 otonom olarak alan ileri nesil satış platformu.",
+    "site_url": "https://webstore"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#C5A059",
+      "secondary": "#1A1A1A",
+      "background": "#0F0F0F",
+      "text": "#F5F5F5"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech",
+    "about_keyword": "tech",
+    "feature_keywords": [
+      "artificial intelligence",
+      "data analysis",
+      "automation"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Satış Ekibinize Nükleer Silah Gücü Verin",
+      "subheadline": "7/24 operasyonel kalan, maliyet verimliliği sağlayan ve otonom randevu alan yapay zeka ordunuzla tanışın.",
+      "ctaButtonText": "Hemen Başlayın",
+      "badge_text": "Geleceğin Satış Teknolojisi webstore"
+    },
+    "about": {
+      "title": "Satışta Devrim Yaratan Teknoloji",
+      "description": "webstore olarak geleneksel satış süreçlerini tamamen değiştiriyoruz. Geliştirdiğimiz otonom sistemler, Google Maps verilerini kullanarak hedeflerinizi belirler ve yapay zeka modelleriyle kusursuz bir iletişim süreci yönetir. Maliyetlerinizi düşürürken satış kapasitenizi sınırsız bir noktaya taşıyoruz.",
+      "stats": [
+        {
+          "value": "10x+",
+          "label": "Hızlı Erişim"
+        },
+        {
+          "value": "7/24",
+          "label": "Kesintisiz Operasyon"
+        },
+        {
+          "value": "%60",
+          "label": "Maliyet Tasarrufu"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Yapay Zeka Satış Ordusu",
+        "description": "Sizin yerinize binlerce potansiyel müşteriye aynı anda ulaşan ve onları ikna eden dijital temsilciler.",
+        "icon": "🤖"
+      },
+      {
+        "title": "Otonom Randevu Yönetimi",
+        "description": "Görüşmeleri yöneten ve en sıcak fırsatları doğrudan takviminize ekleyen akıllı otomasyon sistemi.",
+        "icon": "📅"
+      },
+      {
+        "title": "Hedefli Lead Analizi",
+        "description": "Google Maps verilerini yapay zeka ile işleyerek işletmeniz için en doğru müşteri kitlesini saniyeler içinde belirleme.",
+        "icon": "🎯"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Hedef Belirleme",
+        "description": "Sektörünüzü ve hedef lokasyonunuzu sisteme tanımlayın, otonom ordumuz saniyeler içinde taramaya başlasın."
+      },
+      {
+        "step": "02",
+        "title": "AI İletişimi",
+        "description": "Yapay zekamız potansiyel müşterilerle en uygun dilde ve profesyonel seviyede iletişime geçer."
+      },
+      {
+        "step": "03",
+        "title": "Randevu Kapanışı",
+        "description": "İlgilenen müşteriler filtrelenir ve görüşme onaylanarak doğrudan panelinize randevu olarak düşer."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Sistem nasıl çalışıyor?",
+        "answer": "Sistemimiz Google Maps verilerini kullanarak potansiyel müşterileri tespit eder ve yapay zeka üzerinden otonom iletişim başlatır."
+      },
+      {
+        "question": "Maliyet tasarrufu sağlar mı?",
+        "answer": "Evet, klasik satış ekiplerine göre çok daha düşük maliyetle, haftanın her günü ve her saati kesintisiz olarak çalışmaktadır."
+      },
+      {
+        "question": "Kurulum süreci ne kadar sürer?",
+        "answer": "İşletmenize özel yapılandırma ve yapay zeka eğitimi ortalama 48 saat içerisinde tamamlanarak sistem aktif hale getirilir."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Karahan",
+        "role": "Yazılım Şirketi CEO",
+        "comment": "webstore sayesinde satış ekibimizin verimliliği daha önce hiç görmediğimiz bir seviyeye ulaştı, inanılmaz bir teknoloji."
+      },
+      {
+        "name": "Selin Yılmaz",
+        "role": "Pazarlama Direktörü",
+        "comment": "7/24 çalışan bir satış ordusuna sahip olmak iş hacmimizi sadece bir ayda iki katına çıkardı, herkese tavsiye ediyorum."
+      }
+    ],
+    "contact": {
+      "address": "Bayraklı İş Merkezi, İzmir, Türkiye",
+      "phone": "05541103132",
+      "email": "info@izmirwebstore.com",
+      "map_query": "İzmir, Türkiye",
+      "whatsapp": "05541103132",
+      "instagram": "https://instagram.com/izmirwebstore",
+      "linkedin": "https://linkedin.com/company/webstore"
+    }
+  }
+}
