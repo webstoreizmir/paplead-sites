@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "boradigital - Dijital Dünyanın Mükemmel Çözüm Ortağı",
+    "description": "Bora Digital, Manisa merkezli olarak tüm dijital ihtiyaçlarınıza profesyonel, lüks ve en uygun fiyatlı çözümleri sunan vizyoner bir teknoloji ajansıdır.",
+    "site_url": "https://boradigital.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#D4AF37",
+      "secondary": "#1A1A1B",
+      "background": "#0A0A0A",
+      "text": "#F5F5F5"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech",
+    "about_keyword": "tech",
+    "feature_keywords": [
+      "digital marketing",
+      "premium design",
+      "software development"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Ben Mükemmelim: Dijitalde Sınırları Sizin İçin Zorluyoruz",
+      "subheadline": "Her işi en kaliteli standartlarda ve en uygun fiyatlarla yaparak markanızı zirveye taşıyan profesyonel çözüm ortağınız.",
+      "ctaButtonText": "Hemen Teklif Al",
+      "badge_text": "Lüks Hizmet, Erişilebilir Maliyet"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "Bora Digital olarak sektördeki sıradanlığı reddediyor ve 'Çünkü Farklıyım' mottomuzla hareket ediyoruz. Manisa'dan dünyaya açılan kapınız olarak, lüks tasarım anlayışını dijitalin her alanına entegre ediyor, ucuza en kaliteli işi çıkarma prensibimizle rakiplerimizden ayrılıyoruz.",
+      "stats": [
+        {
+          "value": "10+",
+          "label": "Yıllık Sektör Deneyimi"
+        },
+        {
+          "value": "500+",
+          "label": "Tamamlanan Proje Sayısı"
+        },
+        {
+          "value": "100%",
+          "label": "Müşteri Memnuniyet Oranı"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Kapsamlı Dijital Geliştirme",
+        "description": "Yazılımdan tasarıma kadar her türlü dijital işinizi en yüksek kalitede ve hızda gerçekleştiriyoruz.",
+        "icon": "🚀"
+      },
+      {
+        "title": "Premium Web Tasarımı",
+        "description": "Markanızın prestijini artıracak modern, lüks ve kullanıcı odaklı web arayüzleri tasarlıyoruz.",
+        "icon": "💎"
+      },
+      {
+        "title": "Stratejik Marka Yönetimi",
+        "description": "Dijital dünyadaki varlığınızı en uygun maliyetlerle en etkili şekilde yöneterek büyümenizi sağlıyoruz.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Analiz ve Strateji",
+        "description": "İşinizi detaylıca inceliyor ve size en uygun, en ekonomik yol haritasını belirliyoruz."
+      },
+      {
+        "step": "02",
+        "title": "Mükemmel Uygulama",
+        "description": "Lüks tasarım anlayışımızla projenizi her aşamada titizlikle hayata geçiriyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Hızlı ve Kaliteli Teslim",
+        "description": "Kusursuz sonuçları söz verdiğimiz sürede ve bütçenizi sarsmadan size sunuyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Neden Bora Digital'i tercih etmeliyim?",
+        "answer": "Çünkü her işi profesyonelce yapıyor, lüks kaliteyi en uygun fiyatlarla sunarak fark yaratıyoruz."
+      },
+      {
+        "question": "Hangi dijital hizmetleri sağlıyorsunuz?",
+        "answer": "Yazılım, tasarım, sosyal medya ve dijital pazarlama gibi geniş bir yelpazede hizmet sunmaktayız."
+      },
+      {
+        "question": "Fiyat politikanız nasıl işliyor?",
+        "answer": "Piyasadaki en kaliteli işi, herkesin erişebileceği en rekabetçi fiyatlarla sunmayı taahhüt ediyoruz."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Ahmet Yılmaz",
+        "role": "Kurucu Ortak, TeknoVizyon",
+        "comment": "Gerçekten söyledikleri gibi hem çok ucuza hem de inanılmaz kaliteli bir iş teslim ettiler. Mükemmel!"
+      },
+      {
+        "name": "Ayşe Demir",
+        "role": "Pazarlama Direktörü",
+        "comment": "Bora Digital ile çalışmak markamızın çehresini değiştirdi. Premium hizmet anlayışları hayranlık verici."
+      }
+    ],
+    "contact": {
+      "address": "Manisa, Türkiye",
+      "phone": "5425306778",
+      "email": "mewado4965@5nek.com",
+      "map_query": "Manisa, Türkiye",
+      "whatsapp": "5425306778",
+      "instagram": "https://instagram.com/boradigital",
+      "linkedin": "https://linkedin.com/company/boradigital"
+    }
+  }
+}
