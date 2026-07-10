@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Paplead",
+    "description": "Paplead delivers AI-powered WhatsApp and email sales automation that helps technology businesses capture leads, engage prospects, and scale revenue with a smart digital sales force.",
+    "site_url": "https://websitebuilder"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#6C5CE7",
+      "secondary": "#00D1B2",
+      "background": "#0B1020",
+      "text": "#F5F7FA"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "tech",
+    "about_keyword": "tech",
+    "feature_keywords": [
+      "ai automation",
+      "sales software",
+      "whatsapp marketing"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "AI Sales Force for Faster Growth",
+      "subheadline": "Automate WhatsApp and email outreach with intelligent sales workflows built to convert more leads.",
+      "ctaButtonText": "Get a Quote",
+      "badge_text": "Smart AI Sales Automation"
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Paplead is a technology-driven sales automation company focused on helping modern businesses accelerate outreach and conversion through AI. Our platform combines WhatsApp and email automation with intelligent lead engagement, follow-up logic, and scalable communication flows that reduce manual effort and improve sales performance.",
+      "stats": [
+        {
+          "value": "24/7",
+          "label": "Automated Lead Engagement"
+        },
+        {
+          "value": "3x",
+          "label": "Faster Sales Follow-Ups"
+        },
+        {
+          "value": "100%",
+          "label": "Focused on AI Sales Force"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "AI WhatsApp Outreach",
+        "description": "Engage prospects instantly through automated WhatsApp conversations designed to qualify leads, answer questions, and move buyers toward action.",
+        "icon": "🚀"
+      },
+      {
+        "title": "AI Email Sales Automation",
+        "description": "Launch personalized email sequences that nurture prospects, trigger timely follow-ups, and keep your pipeline active without manual repetition.",
+        "icon": "💎"
+      },
+      {
+        "title": "Intelligent Sales Force",
+        "description": "Build a scalable AI sales force that works across channels, prioritizes opportunities, and supports consistent growth with smart automation.",
+        "icon": "⚡"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Discover Your Funnel",
+        "description": "We review your sales journey, outreach goals, and lead sources to design an automation strategy that fits your business model."
+      },
+      {
+        "step": "02",
+        "title": "Build Smart Automation",
+        "description": "Our team configures AI-powered WhatsApp and email workflows that handle engagement, follow-up, and lead progression efficiently."
+      },
+      {
+        "step": "03",
+        "title": "Launch and Optimize",
+        "description": "We monitor performance, refine messaging, and improve conversion paths so your AI sales system keeps getting better over time."
+      }
+    ],
+    "faq": [
+      {
+        "question": "What does Paplead automate exactly?",
+        "answer": "Paplead automates sales communication across WhatsApp and email, including lead engagement, follow-ups, qualification, and conversion-focused messaging."
+      },
+      {
+        "question": "Is this suitable for small and growing teams?",
+        "answer": "Yes, our AI sales automation is designed for startups, growing companies, and sales teams that want to scale outreach without hiring heavily."
+      },
+      {
+        "question": "Can Paplead improve response speed?",
+        "answer": "Yes, the platform helps businesses respond faster, maintain consistent communication, and reduce missed opportunities through automated workflows."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Daniel Carter",
+        "role": "CEO, SaaS Growth Studio",
+        "comment": "Paplead helped us automate lead follow-up across WhatsApp and email, and our team now closes opportunities much faster with less manual work."
+      },
+      {
+        "name": "Sophia Bennett",
+        "role": "Marketing Director",
+        "comment": "The AI sales automation from Paplead brought structure, speed, and better engagement to our outbound process, especially for warm leads."
+      }
+    ],
+    "contact": {
+      "address": "71-75 Shelton Street / London",
+      "phone": "+905541103132",
+      "email": "support@paplead.com",
+      "map_query": "71-75 Shelton Street / London, United Kingdom",
+      "whatsapp": "905541103132",
+      "instagram": "@paplead.uk",
+      "linkedin": "LinkedIn profile available upon request"
+    }
+  }
+}
