@@ -1,4 +1,5 @@
 ---
+import { getUI } from '../utils/i18n';
 interface ContactInfo {
   address: string;
   phone: string;
@@ -14,7 +15,8 @@ interface Props {
   contact: ContactInfo;
 }
 
-const { title, description, contact } = Astro.props;
+const { title, description, contact, locale } = Astro.props;
+const ui = getUI(locale);
 const currentYear = new Date().getFullYear();
 const shortDesc = description.length > 160 ? description.substring(0, 157) + '...' : description;
 const hasSocials = contact.instagram || contact.linkedin || contact.whatsapp;
@@ -64,24 +66,24 @@ const hasSocials = contact.instagram || contact.linkedin || contact.whatsapp;
 
       <!-- Quick Links -->
       <div>
-        <h4 class="text-sm font-bold mb-6 text-white uppercase tracking-wider">Menü</h4>
+        <h4 class="text-sm font-bold mb-6 text-white uppercase tracking-wider">{ui.footer.menu}</h4>
         <ul class="space-y-3 text-sm">
-          <li><a href="#hero"         class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Ana Sayfa</a></li>
-          <li><a href="#about"        class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Hakkımızda</a></li>
-          <li><a href="#services"     class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Hizmetler</a></li>
-          <li><a href="#process"      class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Nasıl Çalışır</a></li>
-          <li><a href="#testimonials" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Referanslar</a></li>
-          <li><a href="#contact"      class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">İletişim</a></li>
+          <li><a href="#hero"         class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.nav.home}</a></li>
+          <li><a href="#about"        class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.nav.about}</a></li>
+          <li><a href="#services"     class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.nav.services}</a></li>
+          <li><a href="#process"      class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.nav.howItWorks}</a></li>
+          <li><a href="#testimonials" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.nav.testimonials}</a></li>
+          <li><a href="#contact"      class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.nav.contact}</a></li>
         </ul>
       </div>
 
       <!-- Legal -->
       <div>
-        <h4 class="text-sm font-bold mb-6 text-white uppercase tracking-wider">Kurumsal</h4>
+        <h4 class="text-sm font-bold mb-6 text-white uppercase tracking-wider">{ui.footer.corporate}</h4>
         <ul class="space-y-3 text-sm">
-          <li><a href="#" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Gizlilik Politikası</a></li>
-          <li><a href="#" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">Kullanım Şartları</a></li>
-          <li><a href="#" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">KVKK Metni</a></li>
+          <li><a href="#" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.footer.privacy}</a></li>
+          <li><a href="#" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.footer.terms}</a></li>
+          <li><a href="#" class="text-slate-400 hover:text-white hover:translate-x-1 transition-all inline-block">{ui.footer.kvkk}</a></li>
         </ul>
       </div>
     </div>
@@ -89,9 +91,9 @@ const hasSocials = contact.instagram || contact.linkedin || contact.whatsapp;
     <!-- Bottom Bar -->
     <div class="pt-8 border-t border-slate-800/80 flex flex-col md:flex-row justify-between items-center gap-4">
       <p class="text-slate-500 text-sm">
-        &copy; {currentYear} {title}. Tüm hakları saklıdır.
+        &copy; {currentYear} {title}. {ui.footer.rights}.
         <span class="ml-2 text-slate-600">·</span>
-        <a href="https://paplead.com" target="_blank" rel="noopener noreferrer" class="ml-2 text-slate-600 hover:text-purple-400 transition-colors" style="font-size:0.75rem;">paplead.com ile oluşturuldu</a>
+        <a href="https://paplead.com" target="_blank" rel="noopener noreferrer" class="ml-2 text-slate-600 hover:text-purple-400 transition-colors" style="font-size:0.75rem;">{ui.footer.builtWith}</a>
       </p>
 
       {hasSocials && (

@@ -1,4 +1,5 @@
 ---
+import { getUI } from '../utils/i18n';
 import { getSmartImage } from '../utils/images';
 
 interface Props {
@@ -11,7 +12,8 @@ interface Props {
   whatsapp?: string;
 }
 
-const { headline, subheadline, ctaButtonText, imageKeyword, badgeText, stats, whatsapp } = Astro.props;
+const { headline, subheadline, ctaButtonText, imageKeyword, badgeText, stats, whatsapp, locale } = Astro.props;
+const ui = getUI(locale);
 const bgImage = getSmartImage(imageKeyword);
 const waNumber = whatsapp ? whatsapp.replace(/[^0-9]/g, '') : '';
 ---
@@ -104,7 +106,7 @@ const waNumber = whatsapp ? whatsapp.replace(/[^0-9]/g, '') : '';
 
   <!-- Scroll Indicator -->
   <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 animate-bounce">
-    <span class="text-xs text-white/50 font-medium tracking-widest uppercase">Keşfet</span>
+    <span class="text-xs text-white/50 font-medium tracking-widest uppercase">{ui.hero.scroll}</span>
     <svg class="w-5 h-5 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
     </svg>

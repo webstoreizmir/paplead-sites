@@ -1,4 +1,5 @@
 export interface SiteConfig {
+    locale?: 'tr' | 'en';
     is_paid?: boolean;
     metadata: {
         title: string;

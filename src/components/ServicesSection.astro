@@ -1,4 +1,5 @@
 ---
+import { getUI } from '../utils/i18n';
 interface Service {
   title: string;
   description: string;
@@ -9,7 +10,8 @@ interface Props {
   services: Service[];
 }
 
-const { services } = Astro.props;
+const { services, locale } = Astro.props;
+const ui = getUI(locale);
 
 const bgIcons = [
   `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>`,
@@ -27,9 +29,9 @@ const bgIcons = [
   <div class="container-custom relative z-10">
     <!-- Header -->
     <div class="text-center max-w-2xl mx-auto mb-20" data-animate>
-      <span class="section-label">Hizmetlerimiz</span>
-      <h2 class="section-title mb-5">Size Nasıl Değer Katabiliriz?</h2>
-      <p class="section-subtitle">İhtiyaçlarınıza özel, modern ve ölçeklenebilir çözümler sunuyoruz.</p>
+      <span class="section-label">{ui.services.eyebrow}</span>
+      <h2 class="section-title mb-5">{ui.services.title}</h2>
+      <p class="section-subtitle">{ui.services.subtitle}</p>
     </div>
 
     <!-- Cards -->
@@ -67,7 +69,7 @@ const bgIcons = [
             class="inline-flex items-center gap-2 font-semibold text-sm transition-all duration-300"
             style="color: rgb(var(--color-primary))"
           >
-            Detay Alın
+            {ui.services.detail}
             <svg class="w-4 h-4 group-hover:translate-x-1.5 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7"/>
             </svg>

@@ -32,6 +32,9 @@ const colors = {
   text: hexToRgb(config.theme.colors.text),
 };
 
+const htmlLang = (config as any).locale === 'en' ? 'en' : 'tr';
+const ogLocale = htmlLang === 'en' ? 'en_US' : 'tr_TR';
+
 const headingFont = config.theme.fonts.heading.replace(/\s+/g, '+');
 const bodyFont = config.theme.fonts.body.replace(/\s+/g, '+');
 const fontsParam = headingFont === bodyFont
@@ -40,7 +43,7 @@ const fontsParam = headingFont === bodyFont
 ---
 
 <!DOCTYPE html>
-<html lang="tr">
+<html lang={htmlLang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,7 +59,7 @@ const fontsParam = headingFont === bodyFont
     <meta property="og:description" content={description} />
     <meta property="og:image" content={ogImage} />
     {siteUrl && <meta property="og:url" content={siteUrl} />}
-    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:locale" content={ogLocale} />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />

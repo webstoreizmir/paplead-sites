@@ -1,4 +1,5 @@
 ---
+import { getUI } from '../utils/i18n';
 import { getSmartImage } from '../utils/images';
 
 interface Stat {
@@ -13,7 +14,8 @@ interface Props {
   imageKeyword: string;
 }
 
-const { title, description, stats, imageKeyword } = Astro.props;
+const { title, description, stats, imageKeyword, locale } = Astro.props;
+const ui = getUI(locale);
 const imgUrl = getSmartImage(imageKeyword);
 ---
 
@@ -46,7 +48,7 @@ const imgUrl = getSmartImage(imageKeyword);
             </div>
             <div>
               <p class="text-2xl font-bold" style="color: rgb(var(--color-primary))">7/24</p>
-              <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">Kesintisiz Hizmet</p>
+              <p class="text-xs font-semibold text-slate-500 uppercase tracking-wide">{ui.about.badge}</p>
             </div>
           </div>
         </div>
@@ -54,7 +56,7 @@ const imgUrl = getSmartImage(imageKeyword);
 
       <!-- Content Column -->
       <div class="w-full lg:w-1/2" data-animate data-animate-delay="200">
-        <span class="section-label">Markamız</span>
+        <span class="section-label">{ui.about.eyebrow}</span>
         <h2 class="section-title mb-6">{title}</h2>
 
         <div class="relative pl-5 mb-10">
@@ -83,7 +85,7 @@ const imgUrl = getSmartImage(imageKeyword);
         )}
 
         <a href="#contact" class="btn-primary inline-flex">
-          Bizimle Çalışın
+          {ui.about.cta}
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
           </svg>

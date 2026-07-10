@@ -18,6 +18,7 @@ const siteConfigLoaded = getSiteConfig(hostname);
 if (!siteConfigLoaded) return new Response('Site bulunamadı.', { status: 404 });
 
 const rawConfig = siteConfigLoaded || {};
+const locale = (rawConfig as any).locale;
 const metadata = rawConfig.metadata || { title: 'Web Siteniz', description: 'Kurumsal Çözümler' };
 const content = rawConfig.content || {};
 
@@ -46,9 +47,10 @@ const process      = content.process      && content.process.length > 0      ? c
 ---
 
 <Layout title={metadata.title} description={metadata.description} siteConfig={rawConfig}>
-  <Navbar title={metadata.title} />
+  <Navbar title={metadata.title} locale={locale} />
 
   <HeroSection
+    locale={locale}
     headline={hero.headline}
     subheadline={hero.subheadline}
     ctaButtonText={hero.ctaButtonText}
@@ -59,6 +61,7 @@ const process      = content.process      && content.process.length > 0      ? c
   />
 
   <AboutSection
+    locale={locale}
     title={about.title}
     description={about.description}
     stats={about.stats}
@@ -66,24 +69,25 @@ const process      = content.process      && content.process.length > 0      ? c
   />
 
   {services.length > 0 && (
-    <ServicesSection services={services} />
+    <ServicesSection services={services} locale={locale} />
   )}
 
   {process.length > 0 && (
-    <ProcessSection steps={process} />
+    <ProcessSection steps={process} locale={locale} />
   )}
 
   {testimonials.length > 0 && (
-    <TestimonialsSection testimonials={testimonials} />
+    <TestimonialsSection testimonials={testimonials} locale={locale} />
   )}
 
   {faq.length > 0 && (
-    <FAQSection faqs={faq} />
+    <FAQSection faqs={faq} locale={locale} />
   )}
 
-  <ContactSection contact={contact} />
+  <ContactSection contact={contact} locale={locale} />
 
   <Footer
+    locale={locale}
     title={metadata.title}
     description={about.description}
     contact={contact}
