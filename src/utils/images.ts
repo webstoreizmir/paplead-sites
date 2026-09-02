@@ -1,6 +1,5 @@
 const stockImages: Record<string, string[]> = {
     architecture: [
-        "https://images.unsplash.com/photo-1600596542815-e328d4de4bf7?auto=format&fit=crop&w=1920&q=80",
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1920&q=80",
         "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1920&q=80",
         "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1920&q=80"
