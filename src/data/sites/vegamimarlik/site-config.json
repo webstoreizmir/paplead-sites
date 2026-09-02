@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "title": "Vega Mimarlık - İç Mimarlık ve Dekorasyon",
+    "description": "2012'den beri İzmir'de konut ve ofis projelerinde profesyonel iç mimari tasarım ve anahtar teslim uygulama hizmetleri sunuyoruz.",
+    "site_url": "https://vegamimarlik.paplead.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#1B2A4A",
+      "secondary": "#F5EFE6",
+      "background": "#FFFFFF",
+      "text": "#2B2B2B"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "architecture",
+    "about_keyword": "architecture",
+    "feature_keywords": [
+      "interior design",
+      "modern architecture",
+      "luxury home"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Yaşadığınız Alanı Yeniden Tasarlıyoruz",
+      "subheadline": "İzmir'de konut ve ofisleriniz için anahtar teslim iç mimarlık ve dekorasyon çözümleri.",
+      "ctaButtonText": "Ücretsiz Keşif ve Teklif Alın",
+      "badge_text": "Anahtar Teslim İç Mimari Tasarım"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "2012'den beri İzmir'de konut ve ofis projelerinde iç mimari tasarım ve anahtar teslim uygulama yapıyoruz. Ölçüden teslime kadar tek ekip, tek sorumluluk anlayışıyla çalışıyoruz.",
+      "stats": [
+        {
+          "value": "12+",
+          "label": "Yıllık Deneyim"
+        },
+        {
+          "value": "300+",
+          "label": "Tamamlanan Proje"
+        },
+        {
+          "value": "6 Hafta",
+          "label": "Ortalama Teslim Süresi"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Konut İç Mimari Tasarımı",
+        "description": "Evleriniz için modern, estetik ve fonksiyonel iç mimari tasarım çözümleri sunuyoruz.",
+        "icon": "🏠"
+      },
+      {
+        "title": "Ofis ve Mağaza Tasarımı",
+        "description": "Markanıza değer katan, verimliliği artıran prestijli çalışma ve ticari alanlar tasarlıyoruz.",
+        "icon": "🏢"
+      },
+      {
+        "title": "Anahtar Teslim Uygulama",
+        "description": "Tasarım aşamasından teslime kadar tüm süreci tek sorumluluk ve sabit fiyat garantisiyle yönetiyoruz.",
+        "icon": "🔑"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Keşif ve Ölçü",
+        "description": "Mekânınızı yerinde inceliyor, ihtiyaç ve beklentilerinizi detaylıca dinliyoruz."
+      },
+      {
+        "step": "02",
+        "title": "3D Tasarım ve Projelendirme",
+        "description": "Mekânın yeni halini 3D görselleştirme ile size eksiksiz sunuyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Anahtar Teslim Uygulama",
+        "description": "Sabit fiyat sözleşmesiyle belirlenen sürede eksiksiz teslim ediyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Proje teslim süreniz ortalama ne kadardır?",
+        "answer": "Projelerimizin büyüklüğüne bağlı olarak ortalama teslim süremiz 6 haftadır."
+      },
+      {
+        "question": "Uygulama sürecinde ek maliyet çıkar mı?",
+        "answer": "Sözleşmelerimiz sabit fiyatlıdır, onayınız dışında hiçbir ek maliyet çıkarılmaz."
+      },
+      {
+        "question": "Uygulama garantiniz var mı?",
+        "answer": "Tüm anahtar teslim projelerimizde 2 yıl resmi uygulama garantisi sunmaktayız."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Yılmaz",
+        "role": "Müstakil Ev Sahibi",
+        "comment": "Tüm evi 6 haftada tam istediğimiz gibi teslim ettiler. Tek bir muhatabımızın olması harikaydı."
+      },
+      {
+        "name": "Selin Kaya",
+        "role": "Butik Mağaza Yatırımcısı",
+        "comment": "Alsancak'taki mağazamın tasarım ve uygulamasında gösterdikleri profesyonellik için teşekkürler."
+      }
+    ],
+    "contact": {
+      "address": "Alsancak, Konak, İzmir",
+      "phone": "0850 000 10 10",
+      "email": "demo@paplead.com",
+      "map_query": "Alsancak, Konak, İzmir, Türkiye",
+      "whatsapp": "0850 000 10 10",
+      "instagram": "vegamimarlikizmir",
+      "linkedin": "vega-mimarlik"
+    }
+  },
+  "locale": "tr"
+}
