@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "title": "Lezzet Durağı | Bursa Ev Yemekleri ve Mangal Salonu",
+    "description": "Bursa Osmangazi'de 1998'den beri açık mutfak konseptiyle taze, günlük ev yemekleri, hafta sonu mangal menüsü ve toplu yemek hizmetleri sunuyoruz.",
+    "site_url": "https://lezzetduragi.paplead.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#D97706",
+      "secondary": "#78350F",
+      "background": "#FFFBEB",
+      "text": "#292524"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "food",
+    "about_keyword": "food",
+    "feature_keywords": [
+      "restaurant",
+      "meal",
+      "bbq"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Ev Yemeğinin Sıcaklığı, Ustanın Eli",
+      "subheadline": "Bursa'da 1998'den beri açık mutfağımızda her gün pişen taze 12 çeşit ev yemeği ve mangal lezzetleri sizi bekliyor.",
+      "ctaButtonText": "Menüyü İnceleyin",
+      "badge_text": "1998'den Beri Değişmeyen Lezzet"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "Bursa Osmangazi'de 1998 yılından bu yana şeffaf ve açık mutfak anlayışımızla hizmet veriyoruz. Her gün sabah özenle pişen 12 çeşit ev yemeğimiz asla ertesi güne kalmaz. 120 kişilik geniş salonumuzda grup yemekleri, aile buluşmaları ve kurumsal davetlere ev sahipliği yapıyoruz.",
+      "stats": [
+        {
+          "value": "1998",
+          "label": "Kuruluş Yılı"
+        },
+        {
+          "value": "120",
+          "label": "Kişilik Salon Kapasitesi"
+        },
+        {
+          "value": "100%",
+          "label": "Günlük Taze Malzeme"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "Günlük Ev Yemekleri",
+        "description": "Her sabah taze taze pişen 12 farklı anne eli değmiş lezzetli ev yemeği çeşidi.",
+        "icon": "🍲"
+      },
+      {
+        "title": "Kahvaltı ve Serpme Kahvaltı",
+        "description": "Hafta sonları ve hafta içi güne zinde başlamanız için zengin serpme kahvaltı seçeneği.",
+        "icon": "🍳"
+      },
+      {
+        "title": "Mangal ve Izgara Menüsü",
+        "description": "Özel marine edilmiş etler ve usta ellerden çıkan nefis mangal lezzetleri.",
+        "icon": "🥩"
+      },
+      {
+        "title": "Toplu Yemek ve Catering",
+        "description": "Şirketler ve özel davetler için 24 saat önceden sabit fiyat garantili catering hizmeti.",
+        "icon": "🍽️"
+      },
+      {
+        "title": "Salon Kiralama",
+        "description": "120 kişilik ferah salonumuzda toplantı, doğum günü ve aile daveti organizasyonu.",
+        "icon": "🏢"
+      },
+      {
+        "title": "Hızlı Paket Servis",
+        "description": "Ofis çalışanları ve evler için sıcak, hızlı ve hijyenik paket servis olanağı.",
+        "icon": "🛵"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Günlük Malzeme Seçimi",
+        "description": "Her sabah en taze sebze ve etleri yerel üreticilerden temin ediyoruz."
+      },
+      {
+        "step": "02",
+        "title": "Açık Mutfakta Pişirme",
+        "description": "Yemeklerimizi gözünüzün önünde, hijyenik açık mutfağımızda sevgiyle pişiriyoruz."
+      },
+      {
+        "step": "03",
+        "title": "Sıcak Servis ve Sunum",
+        "description": "Özenle hazırlanan menülerimizi güler yüzlü personelimizle masanıza sunuyoruz."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Açık mutfak konseptiniz nasıl çalışıyor?",
+        "answer": "Sipariş verdiğiniz yemeğin tüm hazırlanma ve pişme aşamalarını salonumuzdan şeffaf bir şekilde izleyebilirsiniz."
+      },
+      {
+        "question": "Toplu yemek siparişlerinde önceden haber vermek gerekiyor mu?",
+        "answer": "Evet, toplu yemek ve kurumsal organizasyon siparişlerinizi 24 saat önceden ilettiğinizde sabit fiyat garantisi veriyoruz."
+      },
+      {
+        "question": "Otoparkınız ve çocuk alanınız var mı?",
+        "answer": "120 kişilik salonumuzun yakınında rahat park alanları ve aileler için ferah oturma düzeni mevcuttur."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Kaya",
+        "role": "Şirket Müdürü",
+        "comment": "Ofis ekibimizle her öğle yemeğinde buradayız. Yemekler hem çok lezzetli hem de evimizdeki gibi taze."
+      },
+      {
+        "name": "Sibel Öztürk",
+        "role": "Mimar",
+        "comment": "Açık mutfak olması insana büyük güven veriyor. Hafta sonu kahvaltısı ve mangal menüsü mükemmel."
+      }
+    ],
+    "contact": {
+      "address": "Osmangazi, Bursa, Türkiye",
+      "phone": "0850 000 30 30",
+      "email": "demo@paplead.com",
+      "map_query": "Osmangazi, Bursa, Türkiye",
+      "whatsapp": "0850 000 30 30",
+      "instagram": "https://instagram.com/lezzettduragibursa",
+      "linkedin": "https://linkedin.com/company/lezzettduragibursa"
+    }
+  },
+  "locale": "tr"
+}
