@@ -1,0 +1,135 @@
+{
+  "metadata": {
+    "title": "Dental Plus - Dijital Diş Hekimliği Kliniği Ankara",
+    "description": "Ankara Çankaya'da 14 yıllık tecrübe, 5 uzman hekim ve kendi laboratuvarımızla aynı gün implant, zirkonyum ve estetik diş tedavileri sunuyoruz.",
+    "site_url": "https://dentalplus.paplead.com"
+  },
+  "theme": {
+    "colors": {
+      "primary": "#00A896",
+      "secondary": "#028090",
+      "background": "#F8F9FA",
+      "text": "#1D2D44"
+    },
+    "fonts": {
+      "heading": "Inter",
+      "body": "Inter"
+    },
+    "style": "modern"
+  },
+  "images": {
+    "hero_keyword": "health",
+    "about_keyword": "health",
+    "feature_keywords": [
+      "dentist",
+      "smile",
+      "clinic"
+    ]
+  },
+  "content": {
+    "hero": {
+      "headline": "Gülümsemeniz Bizim İşimiz",
+      "subheadline": "Ankara Çankaya'da dijital ölçü ve kendi laboratuvarımızla hızlı, ağrısız ve estetik diş tedavisi.",
+      "ctaButtonText": "Randevu Alın",
+      "badge_text": "14 Yıllık Deneyim & 5 Uzman Hekim"
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "description": "Dental Plus olarak Ankara Çankaya'da dijital diş hekimliği teknolojisiyle hizmet vermekteyiz. Ağız içi tarayıcılarımız ve kendi bünyemizdeki protez laboratuvarımız sayesinde implant ve zirkonyum kaplama süreçlerini 3 gün gibi kısa bir sürede tamamlıyoruz. Sürpriz maliyetler olmadan, tedavi öncesi yazılı fiyat garantisi sunuyoruz.",
+      "stats": [
+        {
+          "value": "14+",
+          "label": "Yıllık Klinik Deneyimi"
+        },
+        {
+          "value": "5",
+          "label": "Uzman Diş Hekimi"
+        },
+        {
+          "value": "3 Gün",
+          "label": "Protez Teslim Süresi"
+        }
+      ]
+    },
+    "services": [
+      {
+        "title": "İmplant Tedavisi",
+        "description": "Dijital planlama ile aynı gün dikişsiz ve konforlu implant uygulamaları.",
+        "icon": "🦷"
+      },
+      {
+        "title": "Zirkonyum ve Porselen Kaplama",
+        "description": "Kendi laboratuvarımızda 3 günde hazırlanan doğal ve estetik gülüş tasarımları.",
+        "icon": "✨"
+      },
+      {
+        "title": "Diş Beyazlatma",
+        "description": "Klinik ortamında tek seansta güvenli ve uzun süreli diş beyazlatma işlemi.",
+        "icon": "💎"
+      },
+      {
+        "title": "Ortodonti ve Şeffaf Plak",
+        "description": "Telsiz, görünmeyen şeffaf plaklar ile diş çapraşıklıklarına modern çözümler.",
+        "icon": "😁"
+      },
+      {
+        "title": "Kanal Tedavisi ve Çocuk Diş",
+        "description": "Uzman kadromuzla ağrısız kanal tedavisi ve pedodonti (çocuk diş) hizmetleri.",
+        "icon": "🛡️"
+      }
+    ],
+    "process": [
+      {
+        "step": "01",
+        "title": "Dijital Muayene",
+        "description": "Ağız içi tarayıcılar ile macunsuz, konforlu 3D dijital ölçü alımı."
+      },
+      {
+        "step": "02",
+        "title": "Yazılı Planlama",
+        "description": "Tedavi süreci ve net fiyat teklifi detaylı olarak tarafınıza sunulur."
+      },
+      {
+        "step": "03",
+        "title": "Hızlı Tedavi",
+        "description": "Kendi laboratuvarımız sayesinde 3 günde tamamlanan mükemmel gülüş."
+      }
+    ],
+    "faq": [
+      {
+        "question": "Ölçü alımı sırasında bulantı hissi yaşar mıyım?",
+        "answer": "Geleneksel ölçü macunları yerine dijital ağız içi tarayıcı kullandığımız için hiç bir bulantı hissi yaşamazsınız."
+      },
+      {
+        "question": "Zirkonyum kaplama süreci kaç gün sürer?",
+        "answer": "Kendi bünyemizde yer alan diş laboratuvarımız sayesinde protez işlemleriniz 3 gün içinde tamamlanmaktadır."
+      },
+      {
+        "question": "Tedavi esnasında ek ücret çıkar mı?",
+        "answer": "Hayır, tedaviye başlamadan önce verilen yazılı fiyat teklifi dışında kesinlikle ek bir ücret talep edilmez."
+      }
+    ],
+    "testimonials": [
+      {
+        "name": "Mehmet Kaya",
+        "role": "Mühendis",
+        "comment": "İmplant tedavim aynı gün planlandı ve 3 günde zirkonyumlarım takıldı. Ağrısız ve çok profesyonel bir süreçti."
+      },
+      {
+        "name": "Elif Şahin",
+        "role": "Mimar",
+        "comment": "Şeffaf plak tedavisi için tercih ettim. Çalışanlar çok ilgili ve klinik son teknoloji ekipmanlara sahip."
+      }
+    ],
+    "contact": {
+      "address": "Çankaya, Ankara",
+      "phone": "0850 000 20 20",
+      "email": "demo@paplead.com",
+      "map_query": "Çankaya, Ankara, Türkiye",
+      "whatsapp": "0850 000 20 20",
+      "instagram": "dentalplusankara",
+      "linkedin": "dentalplus"
+    }
+  },
+  "locale": "tr"
+}
